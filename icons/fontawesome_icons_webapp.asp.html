@@ -1,0 +1,3264 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Font Awesome Web Application Icons</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python,Java,Web development,W3C,tutorials,programming,training,learning,quiz,primer,lessons,references,examples,exercises,source code,colors,demos,tips">
+<meta name="Description" content="Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java and XML.">
+<link rel="icon" href="../favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="../lib/w3schools23.css">
+<link href='https://fonts.googleapis.com/css?family=Source Code Pro' rel='stylesheet'>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-3855518-1', 'auto');
+ga('require', 'displayfeatures');
+ga('require', 'GTM-WJ88MZ5');
+ga('send', 'pageview');
+</script>
+
+<script type='text/javascript'>
+var k42 = false;
+var googletag = googletag || {}; googletag.cmd = googletag.cmd || [];
+
+k42 = true;
+googletag.cmd.push(function() { googletag.pubads().setTargeting("page_section",(function () {
+    var folder = location.pathname;
+    folder = folder.replace("/", "");
+    folder = folder.substr(0, folder.indexOf("/"));
+    return folder;
+  })());
+});  
+(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=1;
+
+var snhb = snhb || {}; snhb.queue = snhb.queue || [];
+snhb.options = {
+               logOutputEnabled : false,
+               debugOutputEnabled: false,
+               PBJSDebugOutputEnabled: false,
+               auctionResultOutputEnabled: false,
+               allOutputEnabled: false,
+               autoStartAuction: false,
+               };
+
+</script>
+<script src="https://cdn.snigelweb.com/sncmp/latest/sncmp_stub.min.js"></script>
+<style>
+#snigel-cmp-framework .sn-b-def.sn-blue {color: #ffffff!important;background-color: #4CAF50!important;border-color: #4CAF50!important;}
+#snigel-cmp-framework .sn-b-def { border-color: #4CAF50!important;color: #4CAF50!important;}
+#snigel-cmp-framework .sn-selector ul li { color: #4CAF50!important}
+#snigel-cmp-framework .sn-selector ul li:after { background-color: #4CAF50!important; }
+#snigel-cmp-framework .sn-footer-tab .sn-privacy a {color:#4CAF50!important;}
+#snigel-cmp-framework .sn-arrow:after, #snigel-cmp-framework .sn-arrow:before { background-color: #4CAF50!important; }
+#snigel-cmp-framework .sn-switch input:checked+span::before { background-color: #4CAF50!important; }
+#adconsent-usp-link {border: 1px solid #4CAF50!important;color: #4CAF50!important;}
+#adconsent-usp-banner-optout input:checked+.adconsent-usp-slider {background-color:#4CAF50!important;}
+#adconsent-usp-banner-btn {color:#ffffff;border: solid 1px #4CAF50!important;background-color: #4CAF50!important;}
+</style>
+<script type="text/javascript">
+__cmp("setLogo", "https://www.w3schools.com/images/img_logo_small.png");
+__cmp("setPrivacyPolicy", "https://www.w3schools.com/about/about_privacy.asp");
+</script>
+<script async type="text/javascript" src="https://cdn.snigelweb.com/pub/w3schools.com/snhb-loader.min.js"></script>
+<script>
+  snhb.queue.push(function(){
+
+    snhb.startAuction(["main_leaderboard", "wide_skyscraper", "bottom_medium_rectangle", "right_bottom_medium_rectangle"]);
+
+  });
+</script>
+<script src="../lib/my-learning.js"></script>
+<script type='text/javascript'>
+var stickyadstatus = "";
+function fix_stickyad() {
+  document.getElementById("stickypos").style.position = "sticky";
+  var elem = document.getElementById("stickyadcontainer");
+  if (!elem) {return false;}
+  if (document.getElementById("skyscraper")) {
+    var skyWidth = Number(w3_getStyleValue(document.getElementById("skyscraper"), "width").replace("px", ""));  
+    }
+  else {
+    var skyWidth = Number(w3_getStyleValue(document.getElementById("right"), "width").replace("px", ""));  
+  }
+  elem.style.width = skyWidth + "px";
+  if (window.innerWidth <= 992) {
+    elem.style.position = "";
+    elem.style.top = stickypos + "px";
+    return false;
+  }
+  var stickypos = document.getElementById("stickypos").offsetTop;
+  var docTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+  var adHeight = Number(w3_getStyleValue(elem, "height").replace("px", ""));
+  if (stickyadstatus == "") {
+    if ((stickypos - docTop) < 60) {
+      elem.style.position = "fixed";
+      elem.style.top = "60px";
+      stickyadstatus = "sticky";
+      document.getElementById("stickypos").style.position = "sticky";
+
+    }
+  } else {
+    if ((docTop + 60) - stickypos < 0) {  
+      elem.style.position = "";
+      elem.style.top = stickypos + "px";
+      stickyadstatus = "";
+      document.getElementById("stickypos").style.position = "static";
+    }
+  }
+  if (stickyadstatus == "sticky") {
+    if ((docTop + adHeight + 60) > document.getElementById("footer").offsetTop) {
+      elem.style.position = "absolute";
+      elem.style.top = (document.getElementById("footer").offsetTop - adHeight) + "px";
+      document.getElementById("stickypos").style.position = "static";
+    } else {
+        elem.style.position = "fixed";
+        elem.style.top = "60px";
+        stickyadstatus = "sticky";
+        document.getElementById("stickypos").style.position = "sticky";
+    }
+  }
+}
+function w3_getStyleValue(elmnt,style) {
+  if (window.getComputedStyle) {
+    return window.getComputedStyle(elmnt,null).getPropertyValue(style);
+  } else {
+    return elmnt.currentStyle[style];
+  }
+}
+</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+.w3-table-all .fa { 
+    font-size: 24px;
+}
+</style>
+</head>
+<body>
+<div class='w3-container top'>
+  <a class='w3schools-logo notranslate' href='../index.html'>w3schools<span class='dotcom'>.com</span></a>
+
+<!--  <a href='//www.w3schools.com' class='fa fa-logo xw3-text-green' style="font-size:50px;margin-top:-30px" title='Home'></a> -->
+  <div id="loginactioncontainer" class='w3-right'>
+    <div id="mypagediv"></div>
+    <button id="w3loginbtn" style="display:none;border:none;cursor:pointer" class="login w3-right" onclick='w3_open_nav("login")'>LOG IN</button>
+  </div>
+
+  <div id="theworldsgreatest" class='w3-right w3-hide-small w3-wide toptext' style="font-family:'Segoe UI',Arial,sans-serif">
+    THE WORLD'S LARGEST WEB DEVELOPER SITE
+  </div>
+
+</div>
+
+<div style='display:none;position:absolute;z-index:4;right:52px;height:44px;background-color:#5f5f5f;letter-spacing:normal;' id='googleSearch'>
+  <div class='gcse-search'></div>
+</div>
+<div style='display:none;position:absolute;z-index:3;right:111px;height:44px;background-color:#5f5f5f;text-align:right;padding-top:9px;' id='google_translate_element'></div>
+
+<div class='w3-card-2 topnav notranslate' id='topnav'>
+  <div style="overflow:auto;">
+    <div class="w3-bar w3-left" style="width:100%;overflow:hidden;height:44px">
+      <a href='javascript:void(0);' class='topnav-icons fa fa-menu w3-hide-large w3-left w3-bar-item w3-button' onclick='open_menu()' title='Menu'></a>
+      <a href='../tags/att_style_scoped.asp.html' class='topnav-icons fa fa-home w3-left w3-bar-item w3-button' title='Home'></a>
+      <a class="w3-bar-item w3-button" href='../html/html5_intro.asp.html' title='HTML Tutorial'>HTML</a>
+      <a class="w3-bar-item w3-button" href='../css/default.asp.html' title='CSS Tutorial'>CSS</a>
+      <a class="w3-bar-item w3-button" href='../js/default.asp.html' title='JavaScript Tutorial'>JAVASCRIPT</a>
+      <a class="w3-bar-item w3-button" href='../sql/default.asp.html' title='SQL Tutorial'>SQL</a>
+      <a class="w3-bar-item w3-button" href='../python/default.asp.html' title='Python Tutorial'>PYTHON</a>
+      <a class="w3-bar-item w3-button" href='../php/default.asp.html' title='PHP Tutorial'>PHP</a>
+      <a class="w3-bar-item w3-button" href='../bootstrap/bootstrap_ver.asp.html' title='Bootstrap Tutorial'>BOOTSTRAP</a>
+      <a class="w3-bar-item w3-button" href='../howto/default.asp.html' title='How To'>HOW TO</a>
+      <a class="w3-bar-item w3-button" href='../w3css/default.asp.html' title='W3.CSS Tutorial'>W3.CSS</a>
+      <a class="w3-bar-item w3-button" href='../jquery/default.asp.html' title='jQuery Tutorial'>JQUERY</a>
+      <a class="w3-bar-item w3-button" href='../java/default.asp.html' title='Java Tutorial'>JAVA</a>
+      <a class="w3-bar-item w3-button" id='topnavbtn_tutorials' href='javascript:void(0);' onclick='w3_open_nav("tutorials")' title='Tutorials'>MORE <i class='fa fa-caret-down'></i><i class='fa fa-caret-up' style='display:none'></i></a>
+
+
+
+
+      <a href='javascript:void(0);' class='topnav-icons fa w3-right w3-bar-item w3-button' onclick='open_search(this)' title='Search W3Schools'>&#xe802;</a>
+      <a href='javascript:void(0);' class='topnav-icons fa w3-right w3-bar-item w3-button' onclick='open_translate(this)' title='Translate W3Schools'>&#xe801;</a>
+      <a href='javascript:void(0);' class='topnav-icons fa w3-right w3-bar-item w3-button' onclick='changecodetheme(this)' title='Toggle Dark Code'>&#xe80b;</a>
+      <a class="w3-bar-item w3-button w3-right" target="_blank" href='https://shop.w3schools.com'>SHOP</a>
+
+      <a class="w3-bar-item w3-button w3-right" href='../cert/default.asp.html' title='Certificates'>CERTIFICATES</a>
+
+      <!--
+      <a class="w3-bar-item w3-button w3-right" id='topnavbtn_exercises' href='javascript:void(0);' onclick='w3_open_nav("exercises")' title='Exercises'>EXERCISES <i class='fa fa-caret-down'></i><i class='fa fa-caret-up' style='display:none'></i></a>
+      -->
+      
+      <a class="w3-bar-item w3-button w3-right" id='topnavbtn_references' href='javascript:void(0);' onclick='w3_open_nav("references")' title='References'>REFERENCES <i class='fa fa-caret-down'></i><i class='fa fa-caret-up' style='display:none'></i></a>
+      <a class="w3-bar-item w3-button w3-right w3-hide-medium" id='topnavbtn_exercises' href='javascript:void(0);' onclick='w3_open_nav("exercises")' title='Exercises'>EXERCISES <i class='fa fa-caret-down'></i><i class='fa fa-caret-up' style='display:none'></i></a>
+    </div>
+    <div id='nav_tutorials' class='w3-bar-block w3-card-2' style="display:none;">
+      <span onclick='w3_close_nav("tutorials")' class='w3-button w3-xlarge w3-right' style="position:absolute;right:0;font-weight:bold;">&times;</span>
+      <div class='w3-row-padding' style="padding:24px 48px">
+        <div class='w3-col l3 m6'>
+          <h3>HTML and CSS</h3>
+          <a class="w3-bar-item w3-button" href='../html/html5_intro.asp.html'>Learn HTML</a>
+          <a class="w3-bar-item w3-button" href='../css/default.asp.html'>Learn CSS</a>
+          <a class="w3-bar-item w3-button" href='../bootstrap/bootstrap_ver.asp.html'>Learn Bootstrap</a>
+          <a class="w3-bar-item w3-button" href='../w3css/default.asp.html'>Learn W3.CSS</a>
+          <a class="w3-bar-item w3-button" href='../colors/default.asp.html'>Learn Colors</a>
+          <a class="w3-bar-item w3-button" href='default.asp.html'>Learn Icons</a>
+          <a class="w3-bar-item w3-button" href='../graphics/default.asp.html'>Learn Graphics</a>
+          <a class="w3-bar-item w3-button" href='../graphics/svg_intro.asp.html'>Learn SVG</a>
+          <a class="w3-bar-item w3-button" href='../graphics/canvas_intro.asp.html'>Learn Canvas</a>
+          <a class="w3-bar-item w3-button" href='../howto/default.asp.html'>Learn How To</a>
+          <a class="w3-bar-item w3-button" href='../sass/default.php.html'>Learn Sass</a>          
+          <div class="w3-hide-large w3-hide-small">
+            <h3>XML</h3>
+            <a class="w3-bar-item w3-button" href='../xml/default.asp.html'>Learn XML</a>
+            <a class="w3-bar-item w3-button" href='../xml/ajax_intro.asp.html'>Learn XML AJAX</a>
+            <a class="w3-bar-item w3-button" href="../xml/dom_intro.asp.html">Learn XML DOM</a>
+            <a class="w3-bar-item w3-button" href='../xml/xml_dtd_intro.asp.html'>Learn XML DTD</a>
+            <a class="w3-bar-item w3-button" href='../xml/schema_intro.asp.html'>Learn XML Schema</a>
+            <a class="w3-bar-item w3-button" href='../xml/xsl_intro.asp.html'>Learn XSLT</a>
+            <a class="w3-bar-item w3-button" href='../xml/xpath_intro.asp.html'>Learn XPath</a>
+            <a class="w3-bar-item w3-button" href='../xml/xquery_intro.asp.html'>Learn XQuery</a>
+          </div>
+        </div>
+        <div class='w3-col l3 m6'>
+          <h3>JavaScript</h3>
+          <a class="w3-bar-item w3-button" href='../js/default.asp.html'>Learn JavaScript</a>
+          <a class="w3-bar-item w3-button" href='../jquery/default.asp.html'>Learn jQuery</a>
+          <a class="w3-bar-item w3-button" href='../react/default.asp.html'>Learn React</a>
+          <a class="w3-bar-item w3-button" href='../angular/default.asp.html'>Learn AngularJS</a>
+          <a class="w3-bar-item w3-button" href="../js/js_json_intro.asp.html">Learn JSON</a>
+          <a class="w3-bar-item w3-button" href='../js/js_ajax_intro.asp.html'>Learn AJAX</a>
+          <a class="w3-bar-item w3-button" href="../appml/default.asp.html">Learn AppML</a>
+          <a class="w3-bar-item w3-button" href="../w3js/default.asp.html">Learn W3.JS</a>
+          <h3>Programming</h3>
+          <a class="w3-bar-item w3-button" href='../python/default.asp.html'>Learn Python</a>
+          <a class="w3-bar-item w3-button" href='../java/default.asp.html'>Learn Java</a>
+          <a class="w3-bar-item w3-button" href='../cpp/default.asp.html'>Learn C++</a>
+          <a class="w3-bar-item w3-button" href='../cs/default.asp.html'>Learn C#</a>
+          <a class="w3-bar-item w3-button" href='../r/default.asp.html'>Learn R</a>
+          <a class="w3-bar-item w3-button" href='../python/python_ml_getting_started.asp.html'>Learn Machine Learning</a>
+          <a class="w3-bar-item w3-button" href='../datascience/default.asp.html'>Learn Data Science</a>
+          <a class="w3-bar-item w3-button" href='../python/pandas_tutorial.asp.html'>Learn Pandas</a>
+          <div class="w3-hide-small"><br class="w3-hide-medium w3_hide-small"><br class="w3-hide-medium w3_hide-small"></div>
+        </div>
+        <div class='w3-col l3 m6'>
+          <h3>Server Side</h3>
+          <a class="w3-bar-item w3-button" href='../sql/default.asp.html'>Learn SQL</a>
+          <a class="w3-bar-item w3-button" href='../php/default.asp.html'>Learn PHP</a>
+          <a class="w3-bar-item w3-button" href='../asp/default.asp.html'>Learn ASP</a>
+          <a class="w3-bar-item w3-button" href='../nodejs/default.asp.html'>Learn Node.js</a>
+          <a class="w3-bar-item w3-button" href='../nodejs/nodejs_raspberrypi.asp.html'>Learn Raspberry Pi</a>          
+          <h3>Web Building</h3>
+          <a class="w3-bar-item w3-button" href="../w3css/w3css_templates.asp.html">Web Templates</a>
+          <a class="w3-bar-item w3-button" href='../browsers/default.asp.html'>Web Statistics</a>
+          <a class="w3-bar-item w3-button" href='../cert/default.asp.html'>Web Certificates</a>
+          <a class="w3-bar-item w3-button" href='../tryit/default.asp.html'>Web Editor</a>
+          <a class="w3-bar-item w3-button" href="../whatis/default.asp.html">Web Development</a>
+          <a class="w3-bar-item w3-button" href="../typingspeed/default.asp.html">Test Your Typing Speed</a>
+        </div>
+        <div class='w3-col l3 m6 w3-hide-medium'>
+          <h3>XML</h3>
+          <a class="w3-bar-item w3-button" href='../xml/default.asp.html'>Learn XML</a>
+          <a class="w3-bar-item w3-button" href='../xml/ajax_intro.asp.html'>Learn XML AJAX</a>
+          <a class="w3-bar-item w3-button" href="../xml/dom_intro.asp.html">Learn XML DOM</a>
+          <a class="w3-bar-item w3-button" href='../xml/xml_dtd_intro.asp.html'>Learn XML DTD</a>
+          <a class="w3-bar-item w3-button" href='../xml/schema_intro.asp.html'>Learn XML Schema</a>
+          <a class="w3-bar-item w3-button" href='../xml/xsl_intro.asp.html'>Learn XSLT</a>
+          <a class="w3-bar-item w3-button" href='../xml/xpath_intro.asp.html'>Learn XPath</a>
+          <a class="w3-bar-item w3-button" href='../xml/xquery_intro.asp.html'>Learn XQuery</a>
+        </div>
+      </div>
+      <br>
+    </div>
+    <div id='nav_references' class='w3-bar-block w3-card-2'>
+      <span onclick='w3_close_nav("references")' class='w3-button w3-xlarge w3-right' style="position:absolute;right:0;font-weight:bold;">&times;</span>
+      <div class='w3-row-padding' style="padding:24px 48px">
+        <div class='w3-col l3 m6'>
+          <h3>HTML</h3>
+          <a class="w3-bar-item w3-button" href='../tags/default.asp.html'>HTML Tag Reference</a>
+          <a class="w3-bar-item w3-button" href='../tags/ref_html_browsersupport.asp.html'>HTML Browser Support</a>
+          <a class="w3-bar-item w3-button" href='../tags/ref_eventattributes.asp.html'>HTML Event Reference</a>
+          <a class="w3-bar-item w3-button" href='../colors/default.asp.html'>HTML Color Reference</a>
+          <a class="w3-bar-item w3-button" href='../tags/ref_attributes.asp.html'>HTML Attribute Reference</a>
+          <a class="w3-bar-item w3-button" href='../tags/ref_canvas.asp.html'>HTML Canvas Reference</a>
+          <a class="w3-bar-item w3-button" href='../graphics/svg_reference.asp.html'>HTML SVG Reference</a>
+          <a class="w3-bar-item w3-button" href='../charsets/default.asp.html'>HTML Character Sets</a>
+          <a class="w3-bar-item w3-button" href='../graphics/google_maps_reference.asp.html'>Google Maps Reference</a>
+          <h3>CSS</h3>
+          <a class="w3-bar-item w3-button" href='../cssref/default.asp.html'>CSS Reference</a>
+          <a class="w3-bar-item w3-button" href='../cssref/css3_browsersupport.asp.html'>CSS Browser Support</a>
+          <a class="w3-bar-item w3-button" href='../cssref/css_selectors.asp.html'>CSS Selector Reference</a>
+          <a class="w3-bar-item w3-button" href='../bootstrap/bootstrap_ref_all_classes.asp.html'>Bootstrap 3 Reference</a>
+          <a class="w3-bar-item w3-button" href='../bootstrap4/bootstrap_ref_all_classes.asp.html'>Bootstrap 4 Reference</a>
+          <a class="w3-bar-item w3-button" href='../w3css/w3css_references.asp.html'>W3.CSS Reference</a>
+          <a class="w3-bar-item w3-button" href='icons_reference.asp.html'>Icon Reference</a>
+          <a class="w3-bar-item w3-button" href='../sass/sass_functions_string.php.html'>Sass Reference</a>
+       </div>
+        <div class='w3-col l3 m6'>
+          <h3>JavaScript</h3>
+          <a class="w3-bar-item w3-button" href='../jsref/default.asp.html'>JavaScript Reference</a>
+          <a class="w3-bar-item w3-button" href='../jsref/default.asp.html'>HTML DOM Reference</a>
+          <a class="w3-bar-item w3-button" href='../jquery/jquery_ref_overview.asp.html'>jQuery Reference</a>
+          <a class="w3-bar-item w3-button" href='../angular/angular_ref_directives.asp.html'>AngularJS Reference</a>
+          <a class="w3-bar-item w3-button" href="../appml/appml_reference.asp.html">AppML Reference</a>
+          <a class="w3-bar-item w3-button" href="../w3js/w3js_references.asp.html">W3.JS Reference</a>
+          <h3>Programming</h3>
+          <a class="w3-bar-item w3-button" href='../python/python_reference.asp.html'>Python Reference</a>
+          <a class="w3-bar-item w3-button" href='../java/java_ref_keywords.asp.html'>Java Reference</a>
+        </div>
+        <div class='w3-col l3 m6'>
+          <h3>Server Side</h3>
+          <a class="w3-bar-item w3-button" href='../sql/sql_ref_keywords.asp.html'>SQL Reference</a>
+          <a class="w3-bar-item w3-button" href='../php/php_ref_overview.asp.html'>PHP Reference</a>
+          <a class="w3-bar-item w3-button" href='../asp/asp_ref_response.asp.html'>ASP Reference</a>
+          <h3>XML</h3>
+          <a class="w3-bar-item w3-button" href='../xml/dom_nodetype.asp.html'>XML Reference</a>
+          <a class="w3-bar-item w3-button" href='../xml/dom_http.asp.html'>XML Http Reference</a>
+          <a class="w3-bar-item w3-button" href='../xml/xsl_elementref.asp.html'>XSLT Reference</a>
+          <a class="w3-bar-item w3-button" href='../xml/schema_elements_ref.asp.html'>XML Schema Reference</a>
+        </div>
+        <div class='w3-col l3 m6 w3-hide-medium w3-hide-small'>
+          <h3>Character Sets</h3>
+          <a class="w3-bar-item w3-button" href='../charsets/default.asp.html'>HTML Character Sets</a>
+          <a class="w3-bar-item w3-button" href='../charsets/ref_html_ascii.asp.html'>HTML ASCII</a>
+          <a class="w3-bar-item w3-button" href='../charsets/ref_html_ansi.asp.html'>HTML ANSI</a>
+          <a class="w3-bar-item w3-button" href='../charsets/ref_html_ansi.asp.html'>HTML Windows-1252</a>
+          <a class="w3-bar-item w3-button" href='../charsets/ref_html_8859.asp.html'>HTML ISO-8859-1</a>
+          <a class="w3-bar-item w3-button" href='../charsets/ref_html_symbols.asp.html'>HTML Symbols</a>
+          <a class="w3-bar-item w3-button" href='../charsets/ref_html_utf8.asp.html'>HTML UTF-8</a>
+        </div>
+      </div>
+      <br>
+    </div>
+    <div id='nav_exercises' class='w3-bar-block w3-card-2'>
+      <span onclick='w3_close_nav("exercises")' class='w3-button w3-xlarge w3-right' style="position:absolute;right:0;font-weight:bold;">&times;</span>
+      <div class='w3-row-padding' style="padding:24px 48px">
+        <div class='w3-col l4 m6'>
+          <h3>Exercises</h3>
+          <a class="w3-bar-item w3-button" href="../html/html_exercises.asp.html">HTML Exercises</a>
+          <a class="w3-bar-item w3-button" href="../css/css_exercises.asp.html">CSS Exercises</a>
+          <a class="w3-bar-item w3-button" href="../js/js_exercises.asp.html">JavaScript Exercises</a>
+          <a class="w3-bar-item w3-button" href="../sql/sql_exercises.asp.html">SQL Exercises</a>
+          <a class="w3-bar-item w3-button" href="../php/php_exercises.asp.html">PHP Exercises</a>
+          <a class="w3-bar-item w3-button" href="../python/python_exercises.asp.html">Python Exercises</a>
+          <a class="w3-bar-item w3-button" href="../jquery/jquery_exercises.asp.html">jQuery Exercises</a>
+          <a class="w3-bar-item w3-button" href="../bootstrap/bootstrap_exercises.asp.html">Bootstrap Exercises</a>
+          <a class="w3-bar-item w3-button" href="../java/java_exercises.asp.html">Java Exercises</a>
+          <a class="w3-bar-item w3-button" href="../cpp/cpp_exercises.asp.html">C++ Exercises</a>
+          <a class="w3-bar-item w3-button" href="../cs/cs_exercises.asp.html">C# Exercises</a>
+        </div>
+        <div class='w3-col l4 m6'>
+          <h3>Quizzes</h3>
+          <a class="w3-bar-item w3-button" href='../html/html_quiz.asp.html' target='_top'>HTML Quiz</a>
+          <a class="w3-bar-item w3-button" href='../css/css_quiz.asp.html' target='_top'>CSS Quiz</a>
+          <a class="w3-bar-item w3-button" href='../js/js_quiz.asp.html' target='_top'>JavaScript Quiz</a>
+          <a class="w3-bar-item w3-button" href="../sql/sql_quiz.asp.html" target="_top">SQL Quiz</a>
+          <a class="w3-bar-item w3-button" href='../php/php_quiz.asp.html' target='_top'>PHP Quiz</a>
+          <a class="w3-bar-item w3-button" href='../python/python_quiz.asp.html' target='_top'>Python Quiz</a>
+          <a class="w3-bar-item w3-button" href='../jquery/jquery_quiz.asp.html' target='_top'>jQuery Quiz</a>
+          <a class="w3-bar-item w3-button" href='../bootstrap/bootstrap_quiz.asp.html' target='_top'>Bootstrap Quiz</a>
+          <a class="w3-bar-item w3-button" href='../java/java_quiz.asp.html' target='_top'>Java Quiz</a>
+          <a class="w3-bar-item w3-button" href='../cpp/cpp_quiz.asp.html' target='_top'>C++ Quiz</a>
+          <a class="w3-bar-item w3-button" href='../cs/cs_quiz.asp.html' target='_top'>C# Quiz</a>
+          <a class="w3-bar-item w3-button" href='../xml/xml_quiz.asp.html' target='_top'>XML Quiz</a>
+        </div>
+        <div class='w3-col l4 m12'>
+         <h3><a style="padding-left:0!important;text-decoration:none;" href="../cert/default.asp.html">Certificates</a></h3>
+         <a class="w3-bar-item w3-button" href="../cert/cert_html.asp.html" target="_top">HTML Certificate</a>
+         <a class="w3-bar-item w3-button" href="../cert/cert_css.asp.html" target="_top">CSS Certificate</a>
+         <a class="w3-bar-item w3-button" href="../cert/cert_javascript.asp.html" target="_top">JavaScript Certificate</a>
+         <a class="w3-bar-item w3-button" href="../cert/cert_sql.asp.html" target="_top">SQL Certificate</a>
+         <a class="w3-bar-item w3-button" href="../cert/cert_php.asp.html" target="_top">PHP Certificate</a>
+         <a class="w3-bar-item w3-button" href="../cert/cert_python.asp.html" target="_top">Python Certificate</a>
+         <a class="w3-bar-item w3-button" href="../cert/cert_jquery.asp.html" target="_top">jQuery Certificate</a>
+         <a class="w3-bar-item w3-button" href="../cert/cert_bootstrap.asp.html" target="_top">Bootstrap Certificate</a>
+         <a class="w3-bar-item w3-button" href="../cert/cert_xml.asp.html" target="_top">XML Certificate</a>
+        </div>
+      </div>
+      <br>
+    </div>
+
+
+
+    <div id='nav_login' class='w3-bar-block w3-card-2' style="display:none">
+      <span onclick='w3_close_nav("login")' class='w3-button w3-xlarge w3-right' style="position:absolute;right:0;font-weight:bold;">&times;</span>
+      <div class="loginmodaldiv" style="padding:48px 16px 1px 16px;text-align:center;">
+        <h2>LOG IN</h2>
+        <div style="font-size:15px"><a href="https://mypage.w3schools.com/mypage/index.php">Why Log In?</a></div>
+        <div class="loginmodalform">
+          <form id="loginform" name="loginform" autocomplete="off" method="post">
+            <div><label>Username</label></div>
+            <div><input type="email" name="n" placeholder="Enter your e-mail address" onfocus="login_inputGetsFocus(this)"></div>
+            <br>
+            <div><label>Password</label></div>
+            <div><input type="password" name="p" placeholder="Enter Your Password" onfocus="login_inputGetsFocus(this)"></div>
+            <br>
+            <div id="loginerrordiv" style="display:none" class="w3-text-red"></div>
+            <div class="login_submit_container"><button id="login_submit_button" type="submit" onclick="login_user(event)">LOG IN</button></div>
+            <div style="overflow:auto;margin-top:10px;font-size:15px;">
+            <div class="login_newusertext">New User? <a href="https://mypage.w3schools.com/mypage/login.php?logintyp=1" target="_blank">Sign Up For Free!</a></div>
+            <div class="login_forgotpasswordtext"><a href="https://mypage.w3schools.com/mypage/forgot_password.php">Forgot password?</a></div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <br>
+    </div>
+
+
+  </div>
+</div>
+
+<script>
+
+</script>
+
+
+<div class='w3-sidebar w3-collapse' id='sidenav'>
+  <div id='leftmenuinner'>
+    <div class='w3-light-grey' id='leftmenuinnerinner'>
+<!--  <a href='javascript:void(0)' onclick='close_menu()' class='w3-button w3-hide-large w3-large w3-display-topright' style='right:16px;padding:3px 12px;font-weight:bold;'>&times;</a>-->
+<h2 class="left"><span class="left_h2">Icons</span> Tutorial</h2>
+<a target="_top" href="default.asp.html">Icons HOME</a>
+<a target="_top" href="icons_reference.asp.html">Icons Reference</a>
+<br>
+<h2 class="left"><span class="left_h2">Font Awesome 5</span></h2>
+<a target="_top" href="fontawesome5_intro.asp.html">Font Awesome 5 Intro</a>
+<a target="_top" href="fontawesome5_icons_accessibility.asp.html">Icons Accessibility</a>
+<a target="_top" href="fontawesome5_icons_alert.asp.html">Icons Alert</a>
+<a target="_top" href="fontawesome5_icons_animals.asp.html">Icons Animals</a>
+<a target="_top" href="fontawesome5_icons_arrows.asp.html">Icons Arrows</a>
+<a target="_top" href="fontawesome5_icons_audio_video.asp.html">Icons Audio &amp; Video</a>
+<a target="_top" href="fontawesome5_icons_automotive.asp.html">Icons Automotive</a>
+<a target="_top" href="fontawesome5_icons_autumn.asp.html">Icons Autumn</a>
+<a target="_top" href="fontawesome5_icons_beverage.asp.html">Icons Beverage</a>
+<a target="_top" href="fontawesome5_icons_brands.asp.html">Icons Brands</a>
+<a target="_top" href="fontawesome5_icons_buildings.asp.html">Icons Buildings</a>
+<a target="_top" href="fontawesome5_icons_business.asp.html">Icons Business</a>
+<a target="_top" href="fontawesome5_icons_camping.asp.html">Icons Camping</a>
+<a target="_top" href="fontawesome5_icons_charity.asp.html">Icons Charity</a>
+<a target="_top" href="fontawesome5_icons_chat.asp.html">Icons Chat</a>
+<a target="_top" href="fontawesome5_icons_chess.asp.html">Icons Chess</a>
+<a target="_top" href="fontawesome5_icons_childhood.asp.html">Icons Childhood</a>
+<a target="_top" href="fontawesome5_icons_clothing.asp.html">Icons Clothing</a>
+<a target="_top" href="fontawesome5_icons_code.asp.html">Icons Code</a>
+<a target="_top" href="fontawesome5_icons_communication.asp.html">Icons Communication</a>
+<a target="_top" href="fontawesome5_icons_computers.asp.html">Icons Computers</a>
+<a target="_top" href="fontawesome5_icons_construction.asp.html">Icons Construction</a>
+<a target="_top" href="fontawesome5_icons_currency.asp.html">Icons Currency</a>
+<a target="_top" href="fontawesome5_icons_datetime.asp.html">Icons Date &amp; Time</a>
+<a target="_top" href="fontawesome5_icons_design.asp.html">Icons Design</a>
+<a target="_top" href="fontawesome5_icons_editors.asp.html">Icons Editors</a>
+<a target="_top" href="fontawesome5_icons_education.asp.html">Icons Education</a>
+<a target="_top" href="fontawesome5_icons_emoji.asp.html">Icons Emoji</a>
+<a target="_top" href="fontawesome5_icons_energy.asp.html">Icons Energy</a>
+<a target="_top" href="fontawesome5_icons_files.asp.html">Icons Files</a>
+<a target="_top" href="fontawesome5_icons_finance.asp.html">Icons Finance</a>
+<a target="_top" href="fontawesome5_icons_fitness.asp.html">Icons Fitness</a>
+<a target="_top" href="fontawesome5_icons_food.asp.html">Icons Food</a>
+<a target="_top" href="fontawesome5_icons_fruits_vegetables.asp.html">Icons Fruits &amp; Vegetables</a>
+<a target="_top" href="fontawesome5_icons_games.asp.html">Icons Games</a>
+<a target="_top" href="fontawesome5_icons_genders.asp.html">Icons Genders</a>
+<a target="_top" href="fontawesome5_icons_halloween.asp.html">Icons Halloween</a>
+<a target="_top" href="fontawesome5_icons_hands.asp.html">Icons Hands</a>
+<a target="_top" href="fontawesome5_icons_health.asp.html">Icons Health</a>
+<a target="_top" href="fontawesome5_icons_holiday.asp.html">Icons Holiday</a>
+<a target="_top" href="fontawesome5_icons_hotel.asp.html">Icons Hotel</a>
+<a target="_top" href="fontawesome5_icons_household.asp.html">Icons Household</a>
+<a target="_top" href="fontawesome5_icons_images.asp.html">Icons Images</a>
+<a target="_top" href="fontawesome5_icons_interfaces.asp.html">Icons Interfaces</a>
+<a target="_top" href="fontawesome5_icons_logistics.asp.html">Icons Logistics</a>
+<a target="_top" href="fontawesome5_icons_maps.asp.html">Icons Maps</a>
+<a target="_top" href="fontawesome5_icons_maritime.asp.html">Icons Maritime</a>
+<a target="_top" href="fontawesome5_icons_marketing.asp.html">Icons Marketing</a>
+<a target="_top" href="fontawesome5_icons_mathematics.asp.html">Icons Mathematics</a>
+<a target="_top" href="fontawesome5_icons_medical.asp.html">Icons Medical</a>
+<a target="_top" href="fontawesome5_icons_moving.asp.html">Icons Moving</a>
+<a target="_top" href="fontawesome5_icons_music.asp.html">Icons Music</a>
+<a target="_top" href="fontawesome5_icons_objects.asp.html">Icons Objects</a>
+<a target="_top" href="fontawesome5_icons_payment_shopping.asp.html">Icons Payment &amp; Shopping</a>
+<a target="_top" href="fontawesome5_icons_pharmacy.asp.html">Icons Pharmacy</a>
+<a target="_top" href="fontawesome5_icons_political.asp.html">Icons Political</a>
+<a target="_top" href="fontawesome5_icons_religion.asp.html">Icons Religion</a>
+<a target="_top" href="fontawesome5_icons_science.asp.html">Icons Science</a>
+<a target="_top" href="fontawesome5_icons_science_fiction.asp.html">Icons Science Fiction</a>
+<a target="_top" href="fontawesome5_icons_security.asp.html">Icons Security</a>
+<a target="_top" href="fontawesome5_icons_shapes.asp.html">Icons Shapes</a>
+<a target="_top" href="fontawesome5_icons_shopping.asp.html">Icons Shopping</a>
+<a target="_top" href="fontawesome5_icons_social.asp.html">Icons Social</a>
+<a target="_top" href="fontawesome5_icons_spinners.asp.html">Icons Spinners</a>
+<a target="_top" href="fontawesome5_icons_sports.asp.html">Icons Sports</a>
+<a target="_top" href="fontawesome5_icons_spring.asp.html">Icons Spring</a>
+<a target="_top" href="fontawesome5_icons_status.asp.html">Icons Status</a>
+<a target="_top" href="fontawesome5_icons_summer.asp.html">Icons Summer</a>
+<a target="_top" href="fontawesome5_icons_tabletop_gaming.asp.html">Icons Tabletop Gaming</a>
+<a target="_top" href="fontawesome5_icons_toggle.asp.html">Icons Toggle</a>
+<a target="_top" href="fontawesome5_icons_travel.asp.html">Icons Travel</a>
+<a target="_top" href="fontawesome5_icons_users_people.asp.html">Icons Users &amp; People</a>
+<a target="_top" href="fontawesome5_icons_vehicles.asp.html">Icons Vehicles</a>
+<a target="_top" href="fontawesome5_icons_weather.asp.html">Icons Weather</a>
+<a target="_top" href="fontawesome5_icons_winter.asp.html">Icons Winter</a>
+<a target="_top" href="fontawesome5_icons_writing.asp.html">Icons Writing</a>
+<br>
+<h2 class="left"><span class="left_h2">Font Awesome 4</span></h2>
+<a target="_top" href="fontawesome_icons_intro.asp.html">Font Awesome Intro</a>
+<a target="_top" href="fontawesome_icons_brand.asp.html">Icons Brand</a>
+<a target="_top" href="fontawesome_icons_chart.asp.html">Icons Chart</a>
+<a target="_top" href="fontawesome_icons_currency.asp.html">Icons Currency</a>
+<a target="_top" href="fontawesome_icons_directional.asp.html">Icons Directional</a>
+<a target="_top" href="fontawesome_icons_filetype.asp.html">Icons File Type</a>
+<a target="_top" href="fontawesome_icons_form.asp.html">Icons Form</a>
+<a target="_top" href="fontawesome_icons_gender.asp.html">Icons Gender</a>
+<a target="_top" href="fontawesome_icons_hand.asp.html">Icons Hand</a>
+<a target="_top" href="fontawesome_icons_medical.asp.html">Icons Medical</a>
+<a target="_top" href="fontawesome_icons_payment.asp.html">Icons Payment</a>
+<a target="_top" href="fontawesome_icons_spinner.asp.html">Icons Spinner</a>
+<a target="_top" href="fontawesome_icons_text.asp.html">Icons Text</a>
+<a target="_top" href="fontawesome_icons_transportation.asp.html">Icons Transportation</a>
+<a target="_top" href="fontawesome_icons_video.asp.html">Icons Video</a>
+<a target="_top" href="fontawesome_icons_webapp.asp.html">Icons Web Application</a>
+<br>
+<h2 class="left"><span class="left_h2">Bootstrap</span></h2>
+<a target="_top" href="bootstrap_icons_glyphicons.asp.html">Icons BS Glyphicons</a>
+<br>
+<h2 class="left"><span class="left_h2">Google</span></h2>
+<a target="_top" href="google_icons_intro.asp.html">Google Icons Intro</a>
+<a target="_top" href="google_icons_action.asp.html">Icons Action</a>
+<a target="_top" href="google_icons_alert.asp.html">Icons Alert</a>
+<a target="_top" href="google_icons_av.asp.html">Icons AV</a>
+<a target="_top" href="google_icons_communication.asp.html">Icons Communication</a>
+<a target="_top" href="google_icons_content.asp.html">Icons Content</a>
+<a target="_top" href="google_icons_device.asp.html">Icons Device</a>
+<a target="_top" href="google_icons_editor.asp.html">Icons Editor</a>
+<a target="_top" href="google_icons_file.asp.html">Icons File</a>
+<a target="_top" href="google_icons_hardware.asp.html">Icons Hardware</a>
+<a target="_top" href="google_icons_image.asp.html">Icons Image</a>
+<a target="_top" href="google_icons_maps.asp.html">Icons Maps</a>
+<a target="_top" href="google_icons_navigation.asp.html">Icons Navigation</a>
+<a target="_top" href="google_icons_notification.asp.html">Icons Notification</a>
+<a target="_top" href="google_icons_places.asp.html">Icons Places</a>
+<a target="_top" href="google_icons_social.asp.html">Icons Social</a>
+<a target="_top" href="google_icons_toggle.asp.html">Icons Toggle</a>
+<br>
+
+      <br><br>
+    </div>
+  </div>
+</div>
+<div class='w3-main w3-light-grey' id='belowtopnav' style='margin-left:220px;'>
+  <div class='w3-row w3-white'>
+    <div class='w3-col l10 m12' id='main'>
+      <div id='mainLeaderboard' style='overflow:hidden;'>
+        <!-- MainLeaderboard-->
+
+        <!--<pre>main_leaderboard, all: [728,90][970,90][320,50][468,60]</pre>-->
+        <div id="snhb-main_leaderboard-0"></div>
+        <!-- adspace leaderboard -->
+       
+      </div>
+<h1>Font Awesome <span class="color_h1">Web Application Icons</span></h1>
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="fontawesome_icons_video.asp.html">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="bootstrap_icons_glyphicons.asp.html">Next &#10095;</a>
+</div>
+<hr>
+
+<h2>Web Application Icons</h2>
+<p>The table below shows all Font Awesome Web Application icons:</p>
+
+<table class="w3-table-all notranslate">
+  <tr>
+    <th style="width:20%;">Icon</th>
+    <th style="width:70%;">Description</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td><span class="fa fa-address-book"></span></td>
+    <td>fa fa-address-book</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-address-book.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-address-book-o"></span></td>
+    <td>fa fa-address-book-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-address-book-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-address-card"></span></td>
+    <td>fa fa-address-card</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-address-card.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-address-card-o"></span></td>
+    <td>fa fa-address-card-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-address-card-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-adjust"></span></td>
+    <td>fa fa-adjust</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-adjust.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-american-sign-language-interpreting"></span></td>
+    <td>fa fa-american-sign-language-interpreting</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-american-sign-language-interpreting.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-anchor"></span></td>
+    <td>fa fa-anchor</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-anchor.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-archive"></span></td>
+    <td>fa fa-archive</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-archive.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-area-chart"></span></td>
+    <td>fa fa-area-chart</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-area-chart.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-arrows"></span></td>
+    <td>fa fa-arrows</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-arrows.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-arrows-h"></span></td>
+    <td>fa fa-arrows-h</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-arrows-h.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-arrows-v"></span></td>
+    <td>fa fa-arrows-v</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-arrows-v.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-asl-interpreting"></span></td>
+    <td>fa fa-asl-interpreting</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-asl-interpreting.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-assistive-listening-systems"></span></td>
+    <td>fa fa-assistive-listening-systems</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-assistive-listening-systems.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-asterisk"></span></td>
+    <td>fa fa-asterisk</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-asterisk.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-at"></span></td>
+    <td>fa fa-at</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-at.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-automobile"></span></td>
+    <td>fa fa-automobile</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-automobile.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-audio-description"></span></td>
+    <td>fa fa-audio-description</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-audio-description.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-balance-scale"></span></td>
+    <td>fa fa-balance-scale</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-balance-scale.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-ban"></span></td>
+    <td>fa fa-ban</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-ban.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bank"></span></td>
+    <td>fa fa-bank</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bank.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bar-chart"></span></td>
+    <td>fa fa-bar-chart</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bar-chart.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bar-chart-o"></span></td>
+    <td>fa fa-bar-chart-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bar-chart-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-barcode"></span></td>
+    <td>fa fa-barcode</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-barcode.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bars"></span></td>
+    <td>fa fa-bars</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bars.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bath"></span></td>
+    <td>fa fa-bath</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bath.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bathtub"></span></td>
+    <td>fa fa-bathtub</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bathtub.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-battery-0"></span></td>
+    <td>fa fa-battery-0</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-battery-0.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-battery-1"></span></td>
+    <td>fa fa-battery-1</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-battery-1.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-battery-2"></span></td>
+    <td>fa fa-battery-2</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-battery-2.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-battery-3"></span></td>
+    <td>fa fa-battery-3</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-battery-3.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-battery-4"></span></td>
+    <td>fa fa-battery-4</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-battery-4.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-battery-empty"></span></td>
+    <td>fa fa-battery-empty</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-battery-empty.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-battery-full"></span></td>
+    <td>fa fa-battery-full</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-battery-full.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-battery-half"></span></td>
+    <td>fa fa-battery-half</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-battery-half.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-battery-quarter"></span></td>
+    <td>fa fa-battery-quarter</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-battery-quarter.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-battery-three-quarters"></span></td>
+    <td>fa fa-battery-three-quarters</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-battery-three-quarters.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bed"></span></td>
+    <td>fa fa-bed</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bed.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-beer"></span></td>
+    <td>fa fa-beer</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-beer.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bell"></span></td>
+    <td>fa fa-bell</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bell.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bell-o"></span></td>
+    <td>fa fa-bell-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bell-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bell-slash"></span></td>
+    <td>fa fa-bell-slash</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bell-slash.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bell-slash-o"></span></td>
+    <td>fa fa-bell-slash-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bell-slash-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bicycle"></span></td>
+    <td>fa fa-bicycle</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bicycle.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-binoculars"></span></td>
+    <td>fa fa-binoculars</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-binoculars.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-birthday-cake"></span></td>
+    <td>fa fa-birthday-cake</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-birthday-cake.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-blind"></span></td>
+    <td>fa fa-blind</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-blind.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bolt"></span></td>
+    <td>fa fa-bolt</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bolt.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bomb"></span></td>
+    <td>fa fa-bomb</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bomb.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-book"></span></td>
+    <td>fa fa-book</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-book.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bookmark"></span></td>
+    <td>fa fa-bookmark</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bookmark.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bookmark-o"></span></td>
+    <td>fa fa-bookmark-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bookmark-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-braille"></span></td>
+    <td>fa fa-braille</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-braille.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-briefcase"></span></td>
+    <td>fa fa-briefcase</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-briefcase.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bug"></span></td>
+    <td>fa fa-bug</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bug.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-building"></span></td>
+    <td>fa fa-building</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-building.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-building-o"></span></td>
+    <td>fa fa-building-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-building-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bullhorn"></span></td>
+    <td>fa fa-bullhorn</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bullhorn.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bullseye"></span></td>
+    <td>fa fa-bullseye</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bullseye.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-bus"></span></td>
+    <td>fa fa-bus</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-bus.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-cab"></span></td>
+    <td>fa fa-cab</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-cab.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-calculator"></span></td>
+    <td>fa fa-calculator</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-calculator.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-calendar"></span></td>
+    <td>fa fa-calendar</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-calendar.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-calendar-o"></span></td>
+    <td>fa fa-calendar-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-calendar-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-calendar-check-o"></span></td>
+    <td>fa fa-calendar-check-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-calendar-check-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-calendar-minus-o"></span></td>
+    <td>fa fa-calendar-minus-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-calendar-minus-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-calendar-plus-o"></span></td>
+    <td>fa fa-calendar-plus-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-calendar-plus-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-calendar-times-o"></span></td>
+    <td>fa fa-calendar-times-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-calendar-times-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-camera"></span></td>
+    <td>fa fa-camera</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-camera.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-camera-retro"></span></td>
+    <td>fa fa-camera-retro</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-camera-retro.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-car"></span></td>
+    <td>fa fa-car</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-car.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-caret-square-o-down"></span></td>
+    <td>fa fa-caret-square-o-down</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-caret-square-o-down.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-caret-square-o-left"></span></td>
+    <td>fa fa-caret-square-o-left</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-caret-square-o-left.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-caret-square-o-right"></span></td>
+    <td>fa fa-caret-square-o-right</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-caret-square-o-right.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-caret-square-o-up"></span></td>
+    <td>fa fa-caret-square-o-up</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-caret-square-o-up.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-cart-arrow-down"></span></td>
+    <td>fa fa-cart-arrow-down</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-cart-arrow-down.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-cart-plus"></span></td>
+    <td>fa fa-cart-plus</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-cart-plus.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-cc"></span></td>
+    <td>fa fa-cc</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-cc.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-certificate"></span></td>
+    <td>fa fa-certificate</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-certificate.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-check"></span></td>
+    <td>fa fa-check</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-check.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-check-circle"></span></td>
+    <td>fa fa-check-circle</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-check-circle.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-check-circle-o"></span></td>
+    <td>fa fa-check-circle-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-check-circle-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-check-square"></span></td>
+    <td>fa fa-check-square</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-check-square.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-check-square-o"></span></td>
+    <td>fa fa-check-square-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-check-square-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-child"></span></td>
+    <td>fa fa-child</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-child.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-circle"></span></td>
+    <td>fa fa-circle</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-circle.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-circle-o"></span></td>
+    <td>fa fa-circle-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-circle-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-circle-o-notch"></span></td>
+    <td>fa fa-circle-o-notch</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-circle-o-notch.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-circle-thin"></span></td>
+    <td>fa fa-circle-thin</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-circle-thin.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-clock-o"></span></td>
+    <td>fa fa-clock-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-clock-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-clone"></span></td>
+    <td>fa fa-clone</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-clone.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-close"></span></td>
+    <td>fa fa-close</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-close.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-cloud"></span></td>
+    <td>fa fa-cloud</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-cloud.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-cloud-download"></span></td>
+    <td>fa fa-cloud-download</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-cloud-download.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-cloud-upload"></span></td>
+    <td>fa fa-cloud-upload</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-cloud-upload.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-code"></span></td>
+    <td>fa fa-code</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-code.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-code-fork"></span></td>
+    <td>fa fa-code-fork</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-code-fork.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-coffee"></span></td>
+    <td>fa fa-coffee</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-coffee.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-cog"></span></td>
+    <td>fa fa-cog</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-cog.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-cogs"></span></td>
+    <td>fa fa-cogs</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-cogs.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-comment"></span></td>
+    <td>fa fa-comment</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-comment.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-comment-o"></span></td>
+    <td>fa fa-comment-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-comment-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-comments"></span></td>
+    <td>fa fa-comments</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-comments.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-comments-o"></span></td>
+    <td>fa fa-comments-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-comments-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-commenting"></span></td>
+    <td>fa fa-commenting</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-commenting.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-commenting-o"></span></td>
+    <td>fa fa-commenting-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-commenting-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-compass"></span></td>
+    <td>fa fa-compass</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-compass.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-copyright"></span></td>
+    <td>fa fa-copyright</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-copyright.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-credit-card"></span></td>
+    <td>fa fa-credit-card</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-credit-card.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-credit-card-alt"></span></td>
+    <td>fa fa-credit-card-alt</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-credit-card-alt.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-creative-commons"></span></td>
+    <td>fa fa-creative-commons</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-creative-commons.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-crop"></span></td>
+    <td>fa fa-crop</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-crop.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-crosshairs"></span></td>
+    <td>fa fa-crosshairs</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-crosshairs.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-cube"></span></td>
+    <td>fa fa-cube</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-cube.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-cubes"></span></td>
+    <td>fa fa-cubes</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-cubes.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-cutlery"></span></td>
+    <td>fa fa-cutlery</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-cutlery.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-dashboard"></span></td>
+    <td>fa fa-dashboard</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-dashboard.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-database"></span></td>
+    <td>fa fa-database</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-database.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-deaf"></span></td>
+    <td>fa fa-deaf</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-deaf.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-deafness"></span></td>
+    <td>fa fa-deafness</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-deafness.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-desktop"></span></td>
+    <td>fa fa-desktop</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-desktop.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-diamond"></span></td>
+    <td>fa fa-diamond</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-diamond.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-dot-circle-o"></span></td>
+    <td>fa fa-dot-circle-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-dot-circle-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-download"></span></td>
+    <td>fa fa-download</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-download.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-drivers-license"></span></td>
+    <td>fa fa-drivers-license</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-drivers-license.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-drivers-license-o"></span></td>
+    <td>fa fa-drivers-license-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-drivers-license-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-edit"></span></td>
+    <td>fa fa-edit</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-edit.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-ellipsis-h"></span></td>
+    <td>fa fa-ellipsis-h</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-ellipsis-h.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-ellipsis-v"></span></td>
+    <td>fa fa-ellipsis-v</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-ellipsis-v.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-envelope"></span></td>
+    <td>fa fa-envelope</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-envelope.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-envelope-o"></span></td>
+    <td>fa fa-envelope-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-envelope-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-envelope-open"></span></td>
+    <td>fa fa-envelope-open</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-envelope-open.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-envelope-open-o"></span></td>
+    <td>fa fa-envelope-open-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-envelope-open-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-envelope-square"></span></td>
+    <td>fa fa-envelope-square</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-envelope-square.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-eraser"></span></td>
+    <td>fa fa-eraser</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-eraser.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-exchange"></span></td>
+    <td>fa fa-exchange</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-exchange.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-exclamation"></span></td>
+    <td>fa fa-exclamation</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-exclamation.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-exclamation-circle"></span></td>
+    <td>fa fa-exclamation-circle</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-exclamation-circle.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-exclamation-triangle"></span></td>
+    <td>fa fa-exclamation-triangle</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-exclamation-triangle.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-external-link"></span></td>
+    <td>fa fa-external-link</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-external-link.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-external-link-square"></span></td>
+    <td>fa fa-external-link-square</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-external-link-square.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-eye"></span></td>
+    <td>fa fa-eye</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-eye.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-eye-slash"></span></td>
+    <td>fa fa-eye-slash</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-eye-slash.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-eyedropper"></span></td>
+    <td>fa fa-eyedropper</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-eyedropper.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-fax"></span></td>
+    <td>fa fa-fax</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-fax.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-female"></span></td>
+    <td>fa fa-female</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-female.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-fighter-jet"></span></td>
+    <td>fa fa-fighter-jet</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-fighter-jet.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-file-archive-o"></span></td>
+    <td>fa fa-file-archive-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-file-archive-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-file-audio-o"></span></td>
+    <td>fa fa-file-audio-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-file-audio-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-file-code-o"></span></td>
+    <td>fa fa-file-code-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-file-code-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-file-excel-o"></span></td>
+    <td>fa fa-file-excel-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-file-excel-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-file-image-o"></span></td>
+    <td>fa fa-file-image-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-file-image-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-file-movie-o"></span></td>
+    <td>fa fa-file-movie-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-file-movie-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-file-pdf-o"></span></td>
+    <td>fa fa-file-pdf-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-file-pdf-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-file-photo-o"></span></td>
+    <td>fa fa-file-photo-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-file-photo-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-file-picture-o"></span></td>
+    <td>fa fa-file-picture-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-file-picture-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-file-powerpoint-o"></span></td>
+    <td>fa fa-file-powerpoint-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-file-powerpoint-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-file-sound-o"></span></td>
+    <td>fa fa-file-sound-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-file-sound-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-file-video-o"></span></td>
+    <td>fa fa-file-video-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-file-video-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-file-word-o"></span></td>
+    <td>fa fa-file-word-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-file-word-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-file-zip-o"></span></td>
+    <td>fa fa-file-zip-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-file-zip-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-film"></span></td>
+    <td>fa fa-film</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-film.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-filter"></span></td>
+    <td>fa fa-filter</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-filter.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-fire"></span></td>
+    <td>fa fa-fire</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-fire.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-fire-extinguisher"></span></td>
+    <td>fa fa-fire-extinguisher</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-fire-extinguisher.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-flag"></span></td>
+    <td>fa fa-flag</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-flag.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-flag-checkered"></span></td>
+    <td>fa fa-flag-checkered</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-flag-checkered.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-flag-o"></span></td>
+    <td>fa fa-flag-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-flag-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-flash"></span></td>
+    <td>fa fa-flash</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-flash.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-flask"></span></td>
+    <td>fa fa-flask</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-flask.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-folder"></span></td>
+    <td>fa fa-folder</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-folder.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-folder-o"></span></td>
+    <td>fa fa-folder-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-folder-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-folder-open"></span></td>
+    <td>fa fa-folder-open</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-folder-open.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-folder-open-o"></span></td>
+    <td>fa fa-folder-open-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-folder-open-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-frown-o"></span></td>
+    <td>fa fa-frown-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-frown-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-futbol-o"></span></td>
+    <td>fa fa-futbol-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-futbol-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-gamepad"></span></td>
+    <td>fa fa-gamepad</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-gamepad.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-gavel"></span></td>
+    <td>fa fa-gavel</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-gavel.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-gear"></span></td>
+    <td>fa fa-gear</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-gear.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-gears"></span></td>
+    <td>fa fa-gears</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-gears.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-genderless"></span></td>
+    <td>fa fa-genderless</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-genderless.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-gift"></span></td>
+    <td>fa fa-gift</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-gift.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-glass"></span></td>
+    <td>fa fa-glass</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-glass.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-globe"></span></td>
+    <td>fa fa-globe</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-globe.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-graduation-cap"></span></td>
+    <td>fa fa-graduation-cap</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-graduation-cap.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-group"></span></td>
+    <td>fa fa-group</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-group.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-hard-of-hearing"></span></td>
+    <td>fa fa-hard-of-hearing</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-hard-of-hearing.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-hdd-o"></span></td>
+    <td>fa fa-hdd-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-hdd-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-handshake-o"></span></td>
+    <td>fa fa-handshake-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-handshake-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-hashtag"></span></td>
+    <td>fa fa-hashtag</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-hashtag.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-headphones"></span></td>
+    <td>fa fa-headphones</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-headphones.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-heart"></span></td>
+    <td>fa fa-heart</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-heart.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-heart-o"></span></td>
+    <td>fa fa-heart-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-heart-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-heartbeat"></span></td>
+    <td>fa fa-heartbeat</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-heartbeat.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-history"></span></td>
+    <td>fa fa-history</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-history.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-home"></span></td>
+    <td>fa fa-home</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-home.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-hotel"></span></td>
+    <td>fa fa-hotel</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-hotel.html">Try it</a></td>
+  </tr>  
+  <tr>
+    <td><span class="fa fa-hourglass"></span></td>
+    <td>fa fa-hourglass</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-hourglass.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-hourglass-1"></span></td>
+    <td>fa fa-hourglass-1</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-hourglass-1.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-hourglass-2"></span></td>
+    <td>fa fa-hourglass-2</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-hourglass-2.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-hourglass-3"></span></td>
+    <td>fa fa-hourglass-3</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-hourglass-3.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-hourglass-end"></span></td>
+    <td>fa fa-hourglass-end</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-hourglass-end.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-hourglass-half"></span></td>
+    <td>fa fa-hourglass-half</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-hourglass-half.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-hourglass-o"></span></td>
+    <td>fa fa-hourglass-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-hourglass-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-hourglass-start"></span></td>
+    <td>fa fa-hourglass-start</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-hourglass-start.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-i-cursor"></span></td>
+    <td>fa fa-i-cursor</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-i-cursor.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-id-badge"></span></td>
+    <td>fa fa-id-badge</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-id-badge.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-id-card"></span></td>
+    <td>fa fa-id-card</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-id-card.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-id-card-o"></span></td>
+    <td>fa fa-id-card-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-id-card-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-image"></span></td>
+    <td>fa fa-image</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-image.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-inbox"></span></td>
+    <td>fa fa-inbox</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-inbox.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-industry"></span></td>
+    <td>fa fa-industry</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-industry.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-info"></span></td>
+    <td>fa fa-info</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-info.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-info-circle"></span></td>
+    <td>fa fa-info-circle</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-info-circle.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-institution"></span></td>
+    <td>fa fa-institution</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-institution.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-key"></span></td>
+    <td>fa fa-key</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-key.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-keyboard-o"></span></td>
+    <td>fa fa-keyboard-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-keyboard-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-language"></span></td>
+    <td>fa fa-language</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-language.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-laptop"></span></td>
+    <td>fa fa-laptop</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-laptop.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-leaf"></span></td>
+    <td>fa fa-leaf</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-leaf.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-legal"></span></td>
+    <td>fa fa-legal</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-legal.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-lemon-o"></span></td>
+    <td>fa fa-lemon-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-lemon-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-level-down"></span></td>
+    <td>fa fa-level-down</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-level-down.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-level-up"></span></td>
+    <td>fa fa-level-up</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-level-up.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-life-bouy"></span></td>
+    <td>fa fa-life-bouy</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-life-bouy.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-life-buoy"></span></td>
+    <td>fa fa-life-buoy</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-life-buoy.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-life-ring"></span></td>
+    <td>fa fa-life-ring</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-life-ring.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-life-saver"></span></td>
+    <td>fa fa-life-saver</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-life-saver.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-lightbulb-o"></span></td>
+    <td>fa fa-lightbulb-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-lightbulb-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-line-chart"></span></td>
+    <td>fa fa-line-chart</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-line-chart.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-location-arrow"></span></td>
+    <td>fa fa-location-arrow</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-location-arrow.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-lock"></span></td>
+    <td>fa fa-lock</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-lock.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-low-vision"></span></td>
+    <td>fa fa-low-vision</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-low-vision.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-magic"></span></td>
+    <td>fa fa-magic</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-magic.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-magnet"></span></td>
+    <td>fa fa-magnet</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-magnet.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-mail-forward"></span></td>
+    <td>fa fa-mail-forward</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-mail-forward.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-mail-reply"></span></td>
+    <td>fa fa-mail-reply</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-mail-reply.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-mail-reply-all"></span></td>
+    <td>fa fa-mail-reply-all</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-mail-reply-all.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-male"></span></td>
+    <td>fa fa-male</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-male.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-map"></span></td>
+    <td>fa fa-map</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-map.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-map-o"></span></td>
+    <td>fa fa-map-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-map-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-map-pin"></span></td>
+    <td>fa fa-map-pin</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-map-pin.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-map-signs"></span></td>
+    <td>fa fa-map-signs</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-map-signs.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-map-marker"></span></td>
+    <td>fa fa-map-marker</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-map-marker.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-meh-o"></span></td>
+    <td>fa fa-meh-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-meh-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-microchip"></span></td>
+    <td>fa fa-microchip</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-microchip.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-microphone"></span></td>
+    <td>fa fa-microphone</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-microphone.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-microphone-slash"></span></td>
+    <td>fa fa-microphone-slash</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-microphone-slash.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-minus"></span></td>
+    <td>fa fa-minus</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-minus.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-minus-circle"></span></td>
+    <td>fa fa-minus-circle</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-minus-circle.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-minus-square"></span></td>
+    <td>fa fa-minus-square</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-minus-square.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-minus-square-o"></span></td>
+    <td>fa fa-minus-square-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-minus-square-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-mobile"></span></td>
+    <td>fa fa-mobile</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-mobile.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-mobile-phone"></span></td>
+    <td>fa fa-mobile-phone</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-mobile-phone.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-money"></span></td>
+    <td>fa fa-money</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-money.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-moon-o"></span></td>
+    <td>fa fa-moon-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-moon-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-mortar-board"></span></td>
+    <td>fa fa-mortar-board</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-mortar-board.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-motorcycle"></span></td>
+    <td>fa fa-motorcycle</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-motorcycle.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-mouse-pointer"></span></td>
+    <td>fa fa-mouse-pointer</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-mouse-pointer.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-music"></span></td>
+    <td>fa fa-music</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-music.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-navicon"></span></td>
+    <td>fa fa-navicon</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-navicon.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-newspaper-o"></span></td>
+    <td>fa fa-newspaper-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-newspaper-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-object-group"></span></td>
+    <td>fa fa-object-group</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-object-group.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-object-ungroup"></span></td>
+    <td>fa fa-object-ungroup</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-object-ungroup.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-paint-brush"></span></td>
+    <td>fa fa-paint-brush</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-paint-brush.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-paper-plane"></span></td>
+    <td>fa fa-paper-plane</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-paper-plane.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-paper-plane-o"></span></td>
+    <td>fa fa-paper-plane-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-paper-plane-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-paw"></span></td>
+    <td>fa fa-paw</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-paw.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-pencil"></span></td>
+    <td>fa fa-pencil</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-pencil.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-pencil-square"></span></td>
+    <td>fa fa-pencil-square</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-pencil-square.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-pencil-square-o"></span></td>
+    <td>fa fa-pencil-square-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-pencil-square-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-percent"></span></td>
+    <td>fa fa-percent</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-percent.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-phone"></span></td>
+    <td>fa fa-phone</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-phone.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-phone-square"></span></td>
+    <td>fa fa-phone-square</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-phone-square.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-photo"></span></td>
+    <td>fa fa-photo</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-photo.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-picture-o"></span></td>
+    <td>fa fa-picture-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-picture-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-pie-chart"></span></td>
+    <td>fa fa-pie-chart</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-pie-chart.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-plane"></span></td>
+    <td>fa fa-plane</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-plane.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-plug"></span></td>
+    <td>fa fa-plug</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-plug.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-plus"></span></td>
+    <td>fa fa-plus</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-plus.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-plus-circle"></span></td>
+    <td>fa fa-plus-circle</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-plus-circle.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-plus-square"></span></td>
+    <td>fa fa-plus-square</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-plus-square.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-plus-square-o"></span></td>
+    <td>fa fa-plus-square-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-plus-square-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-podcast"></span></td>
+    <td>fa fa-podcast</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-podcast.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-power-off"></span></td>
+    <td>fa fa-power-off</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-power-off.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-print"></span></td>
+    <td>fa fa-print</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-print.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-puzzle-piece"></span></td>
+    <td>fa fa-puzzle-piece</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-puzzle-piece.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-qrcode"></span></td>
+    <td>fa fa-qrcode</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-qrcode.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-question"></span></td>
+    <td>fa fa-question</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-question.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-question-circle"></span></td>
+    <td>fa fa-question-circle</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-question-circle.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-question-circle-o"></span></td>
+    <td>fa fa-question-circle-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-question-circle-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-quote-left"></span></td>
+    <td>fa fa-quote-left</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-quote-left.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-quote-right"></span></td>
+    <td>fa fa-quote-right</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-quote-right.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-random"></span></td>
+    <td>fa fa-random</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-random.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-recycle"></span></td>
+    <td>fa fa-recycle</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-recycle.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-refresh"></span></td>
+    <td>fa fa-refresh</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-refresh.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-registered"></span></td>
+    <td>fa fa-registered</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-registered.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-remove"></span></td>
+    <td>fa fa-remove</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-remove.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-reorder"></span></td>
+    <td>fa fa-reorder</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-reorder.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-reply"></span></td>
+    <td>fa fa-reply</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-reply.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-reply-all"></span></td>
+    <td>fa fa-reply-all</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-reply-all.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-retweet"></span></td>
+    <td>fa fa-retweet</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-retweet.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-road"></span></td>
+    <td>fa fa-road</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-road.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-rocket"></span></td>
+    <td>fa fa-rocket</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-rocket.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-rss"></span></td>
+    <td>fa fa-rss</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-rss.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-rss-square"></span></td>
+    <td>fa fa-rss-square</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-rss-square.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-s15"></span></td>
+    <td>fa fa-s15</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-s15.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-search"></span></td>
+    <td>fa fa-search</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-search.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-search-minus"></span></td>
+    <td>fa fa-search-minus</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-search-minus.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-search-plus"></span></td>
+    <td>fa fa-search-plus</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-search-plus.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-send"></span></td>
+    <td>fa fa-send</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-send.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-send-o"></span></td>
+    <td>fa fa-send-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-send-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-server"></span></td>
+    <td>fa fa-server</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-server.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-share"></span></td>
+    <td>fa fa-share</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-share.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-share-alt"></span></td>
+    <td>fa fa-share-alt</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-share-alt.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-share-alt-square"></span></td>
+    <td>fa fa-share-alt-square</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-share-alt-square.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-share-square"></span></td>
+    <td>fa fa-share-square</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-share-square.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-share-square-o"></span></td>
+    <td>fa fa-share-square-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-share-square-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-shield"></span></td>
+    <td>fa fa-shield</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-shield.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-ship"></span></td>
+    <td>fa fa-ship</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-ship.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-shopping-bag"></span></td>
+    <td>fa fa-shopping-bag</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-shopping-bag.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-shopping-basket"></span></td>
+    <td>fa fa-shopping-basket</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-shopping-basket.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-shopping-cart"></span></td>
+    <td>fa fa-shopping-cart</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-shopping-cart.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-shower"></span></td>
+    <td>fa fa-shower</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-shower.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sign-in"></span></td>
+    <td>fa fa-sign-in</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sign-in.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sign-out"></span></td>
+    <td>fa fa-sign-out</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sign-out.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sign-language"></span></td>
+    <td>fa fa-sign-language</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sign-language.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-signal"></span></td>
+    <td>fa fa-signal</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-signal.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-signing"></span></td>
+    <td>fa fa-signing</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-signing.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sitemap"></span></td>
+    <td>fa fa-sitemap</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sitemap.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sliders"></span></td>
+    <td>fa fa-sliders</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sliders.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-smile-o"></span></td>
+    <td>fa fa-smile-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-smile-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-snowflake-o"></span></td>
+    <td>fa fa-snowflake-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-snowflake-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-soccer-ball-o"></span></td>
+    <td>fa fa-soccer-ball-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-soccer-ball-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sort"></span></td>
+    <td>fa fa-sort</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sort.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sort-alpha-asc"></span></td>
+    <td>fa fa-sort-alpha-asc</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sort-alpha-asc.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sort-alpha-desc"></span></td>
+    <td>fa fa-sort-alpha-desc</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sort-alpha-desc.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sort-amount-asc"></span></td>
+    <td>fa fa-sort-amount-asc</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sort-amount-asc.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sort-amount-desc"></span></td>
+    <td>fa fa-sort-amount-desc</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sort-amount-desc.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sort-asc"></span></td>
+    <td>fa fa-sort-asc</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sort-asc.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sort-desc"></span></td>
+    <td>fa fa-sort-desc</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sort-desc.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sort-down"></span></td>
+    <td>fa fa-sort-down</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sort-down.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sort-numeric-asc"></span></td>
+    <td>fa fa-sort-numeric-asc</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sort-numeric-asc.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sort-numeric-desc"></span></td>
+    <td>fa fa-sort-numeric-desc</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sort-numeric-desc.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sort-up"></span></td>
+    <td>fa fa-sort-up</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sort-up.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-space-shuttle"></span></td>
+    <td>fa fa-space-shuttle</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-space-shuttle.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-spinner"></span></td>
+    <td>fa fa-spinner</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-spinner.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-spoon"></span></td>
+    <td>fa fa-spoon</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-spoon.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-square"></span></td>
+    <td>fa fa-square</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-square.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-square-o"></span></td>
+    <td>fa fa-square-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-square-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-star"></span></td>
+    <td>fa fa-star</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-star.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-star-half"></span></td>
+    <td>fa fa-star-half</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-star-half.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-star-half-empty"></span></td>
+    <td>fa fa-star-half-empty</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-star-half-empty.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-star-half-full"></span></td>
+    <td>fa fa-star-half-full</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-star-half-full.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-star-half-o"></span></td>
+    <td>fa fa-star-half-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-star-half-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-star-o"></span></td>
+    <td>fa fa-star-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-star-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sticky-note"></span></td>
+    <td>fa fa-sticky-note</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sticky-note.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sticky-note-o"></span></td>
+    <td>fa fa-sticky-note-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sticky-note-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-street-view"></span></td>
+    <td>fa fa-street-view</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-street-view.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-suitcase"></span></td>
+    <td>fa fa-suitcase</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-suitcase.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-sun-o"></span></td>
+    <td>fa fa-sun-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-sun-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-support"></span></td>
+    <td>fa fa-support</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-support.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-tablet"></span></td>
+    <td>fa fa-tablet</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-tablet.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-tachometer"></span></td>
+    <td>fa fa-tachometer</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-tachometer.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-tag"></span></td>
+    <td>fa fa-tag</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-tag.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-tags"></span></td>
+    <td>fa fa-tags</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-tags.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-tasks"></span></td>
+    <td>fa fa-tasks</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-tasks.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-taxi"></span></td>
+    <td>fa fa-taxi</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-taxi.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-television"></span></td>
+    <td>fa fa-television</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-television.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-terminal"></span></td>
+    <td>fa fa-terminal</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-terminal.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-thermometer"></span></td>
+    <td>fa fa-thermometer</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-thermometer.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-thermometer-0"></span></td>
+    <td>fa fa-thermometer-0</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-thermometer-0.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-thermometer-1"></span></td>
+    <td>fa fa-thermometer-1</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-thermometer-1.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-thermometer-2"></span></td>
+    <td>fa fa-thermometer-2</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-thermometer-2.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-thermometer-3"></span></td>
+    <td>fa fa-thermometer-3</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-thermometer-3.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-thermometer-4"></span></td>
+    <td>fa fa-thermometer-4</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-thermometer-4.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-thermometer-empty"></span></td>
+    <td>fa fa-thermometer-empty</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-thermometer-empty.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-thermometer-full"></span></td>
+    <td>fa fa-thermometer-full</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-thermometer-full.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-thermometer-half"></span></td>
+    <td>fa fa-thermometer-half</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-thermometer-half.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-thermometer-quarter"></span></td>
+    <td>fa fa-thermometer-quarter</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-thermometer-quarter.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-thermometer-three-quarters"></span></td>
+    <td>fa fa-thermometer-three-quarters</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-thermometer-three-quarters.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-thumb-tack"></span></td>
+    <td>fa fa-thumb-tack</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-thumb-tack.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-thumbs-down"></span></td>
+    <td>fa fa-thumbs-down</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-thumbs-down.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-thumbs-o-up"></span></td>
+    <td>fa fa-thumbs-o-up</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-thumbs-o-up.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-thumbs-up"></span></td>
+    <td>fa fa-thumbs-up</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-thumbs-up.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-ticket"></span></td>
+    <td>fa fa-ticket</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-ticket.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-times"></span></td>
+    <td>fa fa-times</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-times.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-times-circle"></span></td>
+    <td>fa fa-times-circle</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-times-circle.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-times-circle-o"></span></td>
+    <td>fa fa-times-circle-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-times-circle-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-times-rectangle"></span></td>
+    <td>fa fa-times-rectangle</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-times-rectangle.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-times-rectangle-o"></span></td>
+    <td>fa fa-times-rectangle-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-times-rectangle-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-tint"></span></td>
+    <td>fa fa-tint</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-tint.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-toggle-down"></span></td>
+    <td>fa fa-toggle-down</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-toggle-down.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-toggle-left"></span></td>
+    <td>fa fa-toggle-left</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-toggle-left.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-toggle-right"></span></td>
+    <td>fa fa-toggle-right</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-toggle-right.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-toggle-up"></span></td>
+    <td>fa fa-toggle-up</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-toggle-up.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-toggle-off"></span></td>
+    <td>fa fa-toggle-off</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-toggle-off.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-toggle-on"></span></td>
+    <td>fa fa-toggle-on</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-toggle-on.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-trademark"></span></td>
+    <td>fa fa-trademark</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-trademark.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-trash"></span></td>
+    <td>fa fa-trash</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-trash.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-trash-o"></span></td>
+    <td>fa fa-trash-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-trash-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-tree"></span></td>
+    <td>fa fa-tree</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-tree.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-trophy"></span></td>
+    <td>fa fa-trophy</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-trophy.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-truck"></span></td>
+    <td>fa fa-truck</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-truck.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-tty"></span></td>
+    <td>fa fa-tty</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-tty.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-tv"></span></td>
+    <td>fa fa-tv</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-tv.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-umbrella"></span></td>
+    <td>fa fa-umbrella</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-umbrella.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-universal-access"></span></td>
+    <td>fa fa-universal-access</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-universal-access.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-university"></span></td>
+    <td>fa fa-university</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-university.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-unlock"></span></td>
+    <td>fa fa-unlock</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-unlock.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-unlock-alt"></span></td>
+    <td>fa fa-unlock-alt</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-unlock-alt.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-unsorted"></span></td>
+    <td>fa fa-unsorted</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-unsorted.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-upload"></span></td>
+    <td>fa fa-upload</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-upload.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-user"></span></td>
+    <td>fa fa-user</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-user.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-user-circle"></span></td>
+    <td>fa fa-user-circle</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-user-circle.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-user-circle-o"></span></td>
+    <td>fa fa-user-circle-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-user-circle-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-user-o"></span></td>
+    <td>fa fa-user-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-user-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-user-plus"></span></td>
+    <td>fa fa-user-plus</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-user-plus.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-user-secret"></span></td>
+    <td>fa fa-user-secret</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-user-secret.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-user-times"></span></td>
+    <td>fa fa-user-times</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-user-times.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-users"></span></td>
+    <td>fa fa-users</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-users.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-vcard"></span></td>
+    <td>fa fa-vcard</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-vcard.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-vcard-o"></span></td>
+    <td>fa fa-vcard-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-vcard-o.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-video-camera"></span></td>
+    <td>fa fa-video-camera</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-video-camera.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-volume-control-phone"></span></td>
+    <td>fa fa-volume-control-phone</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-volume-control-phone.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-volume-down"></span></td>
+    <td>fa fa-volume-down</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-volume-down.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-volume-off"></span></td>
+    <td>fa fa-volume-off</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-volume-off.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-volume-up"></span></td>
+    <td>fa fa-volume-up</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-volume-up.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-warning"></span></td>
+    <td>fa fa-warning</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-warning.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-wheelchair"></span></td>
+    <td>fa fa-wheelchair</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-wheelchair.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-wheelchair-alt"></span></td>
+    <td>fa fa-wheelchair-alt</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-wheelchair-alt.html">Try it</a></td>
+  </tr>
+ <tr>
+    <td><span class="fa fa-window-close"></span></td>
+    <td>fa fa-window-close</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-window-close.html">Try it</a></td>
+  </tr>
+ <tr>
+    <td><span class="fa fa-window-close-o"></span></td>
+    <td>fa fa-window-close-o</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-window-close-o.html">Try it</a></td>
+  </tr>
+ <tr>
+    <td><span class="fa fa-window-maximize"></span></td>
+    <td>fa fa-window-maximize</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-window-maximize.html">Try it</a></td>
+  </tr>
+ <tr>
+    <td><span class="fa fa-window-minimize"></span></td>
+    <td>fa fa-window-minimize</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-window-minimize.html">Try it</a></td>
+  </tr>
+ <tr>
+    <td><span class="fa fa-window-restore"></span></td>
+    <td>fa fa-window-restore</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-window-restore.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-wifi"></span></td>
+    <td>fa fa-wifi</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-wifi.html">Try it</a></td>
+  </tr>
+  <tr>
+    <td><span class="fa fa-wrench"></span></td>
+    <td>fa fa-wrench</td>
+    <td><a target="_blank" class="w3-btn btnsmall" href="tryit.asp%3Ffilename=tryicons_fa-wrench.html">Try it</a></td>
+  </tr>
+</table>
+<br>
+
+<div class="w3-clear nextprev">
+<a class="w3-left w3-btn" href="fontawesome_icons_video.asp.html">&#10094; Previous</a>
+<a class="w3-right w3-btn" href="bootstrap_icons_glyphicons.asp.html">Next &#10095;</a>
+</div>
+
+<div id="mypagediv2" style="position:relative;text-align:center;"></div>
+<br>
+
+</div>
+<div class="w3-col l2 m12" id="right">
+
+<div class="sidesection">
+  <div id="skyscraper">
+  
+    <!--<pre>wide_skyscraper, all: [160,600][300,600][320,50][120,600][300,1050]</pre>-->
+    <div id="snhb-wide_skyscraper-0"></div>
+    <!-- adspace wide-->
+  
+  </div>
+</div>
+
+<div class="sidesection">
+<h4><a href="../colors/colors_picker.asp.html">COLOR PICKER</a></h4>
+<a href="../colors/colors_picker.asp.html">
+<img src="https://www.w3schools.com/images/colorpicker.gif" alt="colorpicker"></a>
+</div>
+
+<div class="sidesection">
+  <h4>LIKE US</h4>
+  <div class="w3-text-grey sharethis">
+    <a href="https://www.facebook.com/w3schoolscom/" target="_blank" title="Facebook"><span class="fa fa-facebook-square fa-2x"></span></a>
+    <a href="https://www.instagram.com/w3schools.com_official/" target="_blank" title="Instagram"><span class="fa fa-instagram fa-2x"></span></a>
+    <a href="https://www.linkedin.com/company/w3schools.com/" target="_blank" title="LinkedIn"><span class="fa fa-linkedin-square fa-2x"></span></a>
+  </div>
+</div>
+
+<div class="sidesection" style="border-radius:5px;color:#555;padding-top:1px;padding-bottom:8px;margin-left:auto;margin-right:auto;max-width:230px;background-color:#d4edda">
+<p>Get your<br>certification today!</p>
+<a href="../cert/default.asp.html" target="_blank">
+<img src="https://www.w3schools.com/images/w3certified_logo_250.png" style="margin:0 12px 20px 10px;max-width:80%">
+</a>
+<a class="w3-btn w3-margin-bottom" style="text-decoration:none;border-radius:5px;"
+href="../cert/default.asp.html" target="_blank">View options</a>
+</div>
+
+<!--
+<div class="sidesection" style="margin-left:auto;margin-right:auto;max-width:230px">
+<a href="https://shop.w3schools.com/" target="_blank" title="Buy W3Schools Merchandize">
+  <img src="/images/tshirt.jpg" style="max-width:100%;">
+</a>
+</div>
+-->
+
+<div class="sidesection" id="moreAboutSubject">
+</div>
+
+<!--
+<div id="sidesection_exercise" class="sidesection" style="background-color:#555555;max-width:200px;margin:auto;margin-bottom:32px">
+  <div class="w3-container w3-text-white">
+    <h4>Exercises</h4>
+  </div>
+  <div>
+    <div class="w3-light-grey">
+      <a target="_blank" href="/html/exercise.asp" style="padding-top:8px">HTML</a>
+      <a target="_blank" href="/css/exercise.asp">CSS</a>
+      <a target="_blank" href="/js/exercise_js.asp">JavaScript</a>
+      <a target="_blank" href="/sql/exercise.asp">SQL</a>
+      <a target="_blank" href="/php/exercise.asp">PHP</a>
+      <a target="_blank" href="/python/exercise.asp">Python</a>
+      <a target="_blank" href="/bootstrap/exercise_bs3.asp">Bootstrap</a>
+      <a target="_blank" href="/jquery/exercise_jq.asp" style="padding-bottom:8px">jQuery</a>
+    </div>
+  </div>
+</div>
+-->
+
+<div class="sidesection w3-light-grey" style="margin-left:auto;margin-right:auto;max-width:230px">
+  <div class="w3-container w3-dark-grey">
+    <h4><a href="../howto/default.asp.html" class="w3-hover-text-white">HOW TO</a></h4>
+  </div>
+  <div class="w3-container w3-left-align w3-padding-16">
+    <a href="../howto/howto_js_tabs.asp.html">Tabs</a><br>
+    <a href="../howto/howto_css_dropdown.asp.html">Dropdowns</a><br>
+    <a href="../howto/howto_js_accordion.asp.html">Accordions</a><br>
+    <a href="../howto/howto_js_sidenav.asp.html">Side Navigation</a><br>
+    <a href="../howto/howto_js_topnav.asp.html">Top Navigation</a><br>
+    <a href="../howto/howto_css_modals.asp.html">Modal Boxes</a><br>
+    <a href="../howto/howto_js_progressbar.asp.html">Progress Bars</a><br>
+    <a href="../howto/howto_css_parallax.asp.html">Parallax</a><br>
+    <a href="../howto/howto_css_login_form.asp.html">Login Form</a><br>
+    <a href="../howto/howto_html_include.asp.html">HTML Includes</a><br>
+    <a href="../howto/howto_google_maps.asp.html">Google Maps</a><br>
+    <a href="../howto/howto_js_rangeslider.asp.html">Range Sliders</a><br>
+    <a href="../howto/howto_css_tooltip.asp.html">Tooltips</a><br>
+    <a href="../howto/howto_js_slideshow.asp.html">Slideshow</a><br>
+    <a href="../howto/howto_js_filter_lists.asp.html">Filter List</a><br>
+    <a href="../howto/howto_js_sort_list.asp.html">Sort List</a><br>
+  </div>
+</div>
+
+
+<div class="sidesection" style="margin-left:auto;margin-right:auto;max-width:230px">
+  <div class="w3-container w3-dark-grey">
+    <h5><a href="../cert/default.asp.html" class="w3-hover-text-white">Certificates</a></h5>
+  </div>
+  <div class="w3-border">
+  <a href="../cert/cert_html.asp.html" class="w3-button w3-light-grey w3-block w3-border-bottom" style="text-decoration:none">HTML</a>
+  <a href="../cert/cert_css.asp.html" class="w3-button w3-light-grey w3-block w3-border-bottom" style="text-decoration:none">CSS</a>
+  <a href="../cert/cert_javascript.asp.html" class="w3-button w3-light-grey w3-block w3-border-bottom" style="text-decoration:none">JavaScript</a>
+  <a href="../cert/cert_python.asp.html" class="w3-button w3-light-grey w3-block w3-border-bottom" style="text-decoration:none">Python</a>
+  <a href="../cert/cert_sql.asp.html" class="w3-button w3-light-grey w3-block w3-border-bottom" style="text-decoration:none">SQL</a>
+  <a href="../cert/cert_php.asp.html" class="w3-button w3-light-grey w3-block w3-border-bottom" style="text-decoration:none">PHP</a>
+  <a href="../cert/default.asp.html" class="w3-button w3-light-grey w3-block" style="text-decoration:none">And more</a>
+  </div>
+</div>
+
+<div id="stickypos" class="sidesection" style="text-align:center;position:sticky;top:50px;">
+  <div id="stickyadcontainer">
+    <div style="position:relative;margin:auto;">
+      
+      <!--<pre>sidebar_sticky, desktop: [120,600][160,600][300,600][300,250]</pre>-->
+      <div id="snhb-sidebar_sticky-0"></div>
+      <script>
+          if (Number(w3_getStyleValue(document.getElementById("main"), "height").replace("px", "")) > 2200) {
+            // adspace sticky
+            if (document.getElementById("snhb-mid_content-0")) {
+              snhb.queue.push(function(){  snhb.startAuction(["sidebar_sticky", "mid_content" ]); });
+            }
+            else {
+              snhb.queue.push(function(){  snhb.startAuction(["sidebar_sticky"]); });
+            }
+          }
+          else {
+              if (document.getElementById("snhb-mid_content-0")) {
+                snhb.queue.push(function(){  snhb.startAuction(["mid_content"]); });
+              }
+          }
+      </script>  
+      
+    </div>
+  </div>
+</div>
+
+<script>
+  window.addEventListener("scroll", fix_stickyad);
+  window.addEventListener("resize", fix_stickyad);
+</script>
+
+</div>
+</div>
+<div id="footer" class="footer w3-container w3-white">
+
+<hr>
+
+<div style="overflow:auto">
+  <div class="bottomad">
+    <!-- BottomMediumRectangle -->
+    <!--<pre>bottom_medium_rectangle, all: [970,250][300,250][336,280]</pre>-->
+    <div id="snhb-bottom_medium_rectangle-0" style="padding:0 10px 10px 0;float:left;width:auto;"></div>
+    <!-- adspace bmr -->
+    <!-- RightBottomMediumRectangle -->
+    <!--<pre>right_bottom_medium_rectangle, desktop: [300,250][336,280]</pre>-->
+    <div id="snhb-right_bottom_medium_rectangle-0" style="padding:0 10px 10px 0;float:left;width:auto;"></div>
+  </div>
+</div>
+
+<hr>
+<div class="w3-row-padding w3-center w3-small" style="margin:0 -16px">
+<div class="w3-col l3 m3 s12">
+<a class="w3-button w3-light-grey w3-block" href="javascript:void(0);" onclick="displayError();return false" style="white-space:nowrap;text-decoration:none;margin-top:1px;margin-bottom:1px">REPORT ERROR</a>
+</div>
+<!--
+<div class="w3-col l3 m3 s12">
+<a class="w3-button w3-light-grey w3-block" href="javascript:void(0);" target="_blank" onclick="printPage();return false;" style="text-decoration:none;margin-top:1px;margin-bottom:1px">PRINT PAGE</a>
+</div>
+-->
+<div class="w3-col l3 m3 s12">
+<a class="w3-button w3-light-grey w3-block" href="../forum/default.asp.html" target="_blank" style="text-decoration:none;margin-top:1px;margin-bottom:1px">FORUM</a>
+</div>
+<div class="w3-col l3 m3 s12">
+<a class="w3-button w3-light-grey w3-block" href="../about/default.asp.html" target="_top" style="text-decoration:none;margin-top:1px;margin-bottom:1px">ABOUT</a>
+</div>
+<div class="w3-col l3 m3 s12">
+<a class="w3-button w3-light-grey w3-block" href="https://shop.w3schools.com/" target="_blank" style="text-decoration:none;margin-top:1px;margin-bottom:1px">SHOP</a>
+</div>
+
+</div>
+<hr>
+<div class="w3-light-grey w3-padding w3-margin-bottom" id="err_form" style="display:none;position:relative">
+<span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright w3-large">&times;</span>
+
+<h2>Report Error</h2>
+
+<p>If you want to report an error, or if you want to make a suggestion, do not hesitate to send us an e-mail:</p>
+<p>help@w3schools.com</p>
+<br>
+
+<!--
+<h2>Your Suggestion:</h2>
+<form>
+<div class="w3-section">      
+<label for="err_email">Your E-mail:</label>
+<input class="w3-input w3-border" type="text" style="margin-top:5px;width:100%" id="err_email" name="err_email">
+</div>
+<div class="w3-section">      
+<label for="err_email">Page address:</label>
+<input class="w3-input w3-border" type="text" style="width:100%;margin-top:5px" id="err_url" name="err_url" disabled="disabled">
+</div>
+<div class="w3-section">
+<label for="err_email">Description:</label>
+<textarea rows="10" class="w3-input w3-border" id="err_desc" name="err_desc" style="width:100%;margin-top:5px;resize:vertical;"></textarea>
+</div>
+<div class="form-group">        
+<button type="button" class="w3-button w3-dark-grey" onclick="sendErr()">Submit</button>
+</div>
+<br>
+</form>
+-->
+
+</div>
+<div class="w3-container w3-light-grey w3-padding" id="err_sent" style="display:none;position:relative">
+<span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">&times;</span>     
+<h2>Thank You For Helping Us!</h2>
+<p>Your message has been sent to W3Schools.</p>
+</div>
+
+<div class="w3-row w3-center w3-small">
+<div class="w3-col l3 m6 s12">
+<div class="top10">
+<h4>Top Tutorials</h4>
+<a href="../html/html5_intro.asp.html">HTML Tutorial</a><br>
+<a href="../css/default.asp.html">CSS Tutorial</a><br>
+<a href="../js/default.asp.html">JavaScript Tutorial</a><br>
+<a href="../howto/default.asp.html">How To Tutorial</a><br>
+<a href="../sql/default.asp.html">SQL Tutorial</a><br>
+<a href="../python/default.asp.html">Python Tutorial</a><br>
+<a href="../w3css/default.asp.html">W3.CSS Tutorial</a><br>
+<a href="../bootstrap/bootstrap_ver.asp.html">Bootstrap Tutorial</a><br>
+<a href="../php/default.asp.html">PHP Tutorial</a><br>
+<a href="../java/default.asp.html">Java Tutorial</a><br>
+<a href="../cpp/default.asp.html">C++ Tutorial</a><br>
+<a href="../jquery/default.asp.html">jQuery Tutorial</a><br>
+</div>
+</div>
+<div class="w3-col l3 m6 s12">
+<div class="top10">
+<h4>Top References</h4>
+<a href="../tags/default.asp.html">HTML Reference</a><br>
+<a href="../cssref/default.asp.html">CSS Reference</a><br>
+<a href="../jsref/default.asp.html">JavaScript Reference</a><br>
+<a href="../sql/sql_ref_keywords.asp.html">SQL Reference</a><br>
+<a href="../python/python_reference.asp.html">Python Reference</a><br>
+<a href="../w3css/w3css_references.asp.html">W3.CSS Reference</a><br>
+<a href="../bootstrap/bootstrap_ref_all_classes.asp.html">Bootstrap Reference</a><br>
+<a href="../php/php_ref_overview.asp.html">PHP Reference</a><br>
+<a href="../colors/colors_names.asp.html">HTML Colors</a><br>
+<a href="../java/java_ref_keywords.asp.html">Java Reference</a><br>
+<a href="../angular/angular_ref_directives.asp.html">Angular Reference</a><br>
+<a href="../jquery/jquery_ref_overview.asp.html">jQuery Reference</a><br>
+</div>
+</div>
+<div class="w3-col l3 m6 s12">
+<div class="top10">
+<h4>Top Examples</h4>
+<a href="../html/html_examples.asp.html">HTML Examples</a><br>
+<a href="../css/css_examples.asp.html">CSS Examples</a><br>
+<a href="../js/js_examples.asp.html">JavaScript Examples</a><br>
+<a href="../howto/default.asp.html">How To Examples</a><br>
+<a href="../sql/sql_examples.asp.html">SQL Examples</a><br>
+<a href="../python/python_examples.asp.html">Python Examples</a><br>
+<a href="../w3css/w3css_examples.asp.html">W3.CSS Examples</a><br>
+<a href="../bootstrap/bootstrap_examples.asp.html">Bootstrap Examples</a><br>
+<a href="../php/php_examples.asp.html">PHP Examples</a><br>
+<a href="../java/java_examples.asp.html">Java Examples</a><br>
+<a href="../xml/xml_examples.asp.html">XML Examples</a><br>
+<a href="../jquery/jquery_examples.asp.html">jQuery Examples</a><br>
+</div>
+</div>
+<div class="w3-col l3 m6 s12">
+<div class="top10">
+<h4>Web Certificates</h4>
+<a href="../cert/default.asp.html">HTML Certificate</a><br>
+<a href="../cert/default.asp.html">CSS Certificate</a><br>
+<a href="../cert/default.asp.html">JavaScript Certificate</a><br>
+<a href="../cert/default.asp.html">SQL Certificate</a><br>
+<a href="../cert/default.asp.html">Python Certificate</a><br>
+<a href="../cert/default.asp.html">PHP Certificate</a><br>
+<a href="../cert/default.asp.html">Bootstrap Certificate</a><br>
+<a href="../cert/default.asp.html">XML Certificate</a><br>
+<a href="../cert/default.asp.html">jQuery Certificate</a><br>
+<a href="../cert/default.asp.html" class="w3-button w3-margin-top w3-dark-grey" style="text-decoration:none">
+Get Certified &raquo;</a>
+
+</div>
+</div>        
+</div>        
+
+<hr>
+<div class="w3-center w3-small w3-opacity">
+W3Schools is optimized for learning and training. Examples might be simplified to improve reading and learning.
+Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content.
+While using W3Schools, you agree to have read and accepted our <a href="../about/about_copyright.asp.html">terms of use</a>, 
+<a href="../about/about_privacy.asp.html">cookie and privacy policy</a>.<br><br>
+<a href="../about/about_copyright.asp.html">Copyright 1999-2021</a> by Refsnes Data. All Rights Reserved.<br>
+<a href="../w3css/default.asp.html">W3Schools is Powered by W3.CSS</a>.<br><br>
+<a href="../index.html">
+<img style="width:150px;height:28px;border:0" src="https://www.w3schools.com/images/w3schoolscom_gray.gif" alt="W3Schools.com"></a>
+</div>
+<br><br>
+</div>
+
+</div>
+<script src="../lib/w3schools_footer.js"></script>
+
+<script>
+
+loadUser();
+function loadUser() {
+  var x, y, pos, foldername, filename, typ, pathname = window.location.pathname;
+  if (pathname.substr(0,1) == "/") {pathname = pathname.substr(1);}
+  pos = pathname.indexOf("/");
+  foldername = pathname.substr(0, pos);
+  filename = pathname.substr(pos + 1);
+  typ = foldername;
+  if (foldername == "quiztest") {
+    cc = window.location.href;
+    pos = cc.indexOf("qtest=");
+    typ = cc.substr(pos + 6);
+  }
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      y = this.responseText;
+      x = y.substr(0, 1);
+      if (x == "A" || x == "B" || x == "C" || x == "D" || x == "E") {
+       console.log(x);
+        activateElse();
+      } else if (x == "F" || x == "G" || x == "H" || x == "I" || x == "J" || x == "K"  || x == "L" || x == "M" || x == "Q") {
+        console.log(x);
+        activateMYPAGE(x, y);
+      } else {
+        activateElse();
+        console.log("Z");
+      }
+    }
+  };
+  xhttp.open("POST", MyLearning.getUrl('api.meta'), true);
+//xhttp.open("POST", "https://mypage.w3schools.com/mypage/beta.php", true);
+  xhttp.withCredentials = true;
+  xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  xhttp.send("a=" + foldername + "&b=" + filename + "&c=" + typ + "&d=0");
+}
+function finishedPage() {
+  var x, y, pos, foldername, filename, typ, pathname = window.location.pathname;
+  if (pathname.substr(0,1) == "/") {pathname = pathname.substr(1);}
+  pos = pathname.indexOf("/");
+  foldername = pathname.substr(0, pos);
+  filename = pathname.substr(pos + 1);
+  typ = foldername;
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      y = this.responseText;
+      x = y.substr(0, 1);
+      if (x == "O") {
+        console.log(x);
+        registerPoint(x);
+      } else {
+        console.log("Z");
+      }
+    }
+  };
+  xhttp.open("POST", MyLearning.getUrl('api.meta'), true);
+//xhttp.open("POST", "https://mypage.w3schools.com/mypage/beta.php", true);
+  xhttp.withCredentials = true;
+  xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  xhttp.send("a=" + foldername + "&b=" + filename + "&c=" + typ + "&d=1");
+}
+function activateElse() {
+  var a = document.getElementById("mypagediv");
+  var b = document.getElementById("w3loginbtn");
+  if (a) a.style.display = "none";
+  if (b) b.style.display = "inline";
+}
+var mp_pagesread = 0, mp_totalpages = 0;
+function activateMYPAGE(cc, obj) {
+  var x, degrees = 0, txt = "", txt2 = "", color1 = "rgba(76, 175, 80, 0.1)", color2 = "rgba(76, 175, 80, 1)";
+  var a = document.getElementById("w3loginbtn");
+  var b = document.getElementById("mypagediv");
+  var c = document.getElementById("mypagediv2");
+  if (a) a.style.display = "none";
+  if (b) {
+    if (cc == "I" || cc == "J" || cc == "O" || cc == "Q") {
+      jsonobj = JSON.parse(obj.substr(1));
+      mp_pagesread = jsonobj.b;
+      mp_totalpages = jsonobj.a;
+      x = Math.round((mp_pagesread/mp_totalpages) * 100);
+      degrees = x * 3.6;
+      if (degrees > 359) degrees = 359.99;
+    }
+    if (cc == "Q") {
+      color1 = "rgba(44, 156, 202, 0.1)";
+      color2 = "rgba(44, 156, 202, 1)";
+    }
+    b.style.display = "block";
+    txt += "<a href='https://mypage.w3schools.com/mypage/default.php'>";
+    txt2 = txt;
+    txt += "<img src='https://www.w3schools.com/images/mypagelogo32x32.png' alt='MYPAGE' style='position:absolute;top:18px;right:28px'>";
+    txt2 += "<img src='https://www.w3schools.com/images/mypagelogo32x32.png' alt='MYPAGE' style='position:absolute;top:18px;margin-left:10px;xright:28px'>";
+    if (cc != "F") {
+      txt += '<svg style="position:absolute;top:0;right:0;height:70px;width:70px">';
+      txt += '<path id="mypage_circle1" fill="none" stroke="' + color1 + '" stroke-width="4"/>';
+      txt += '<path id="mypage_circle2" fill="none" stroke="' + color2 + '" stroke-width="4"/>';
+      txt += '</svg>';
+      txt2 += '<svg style="position:absolute;xtop:0;xright:0;height:70px;width:70px">';
+      txt2 += '<path id="mypage2_circle1" fill="none" stroke="' + color1 + '" stroke-width="4"/>';
+      txt2 += '<path id="mypage2_circle2" fill="none" stroke="' + color2 + '" stroke-width="4"/>';
+      txt2 += '</svg>';
+    }
+    if (cc == "J") {
+      checkIfMypage2IsInView();
+      window.addEventListener("scroll", checkIfMypage2IsInView);
+    }
+    if (cc == "Q") {
+      if (degrees == 359.99) {
+        txt += "<span id='usergetsstar'>&#x2605;</span>";
+      }
+    }
+    txt += '</a>';
+    txt2 += '</a>';
+    b.innerHTML = "&nbsp;" + txt;
+    c.innerHTML = "&nbsp;" + txt2;
+    if (cc != "L") {
+      document.getElementById("mypage_circle1").setAttribute("d", loginDrawCircle(26, 35, 24, 0, 359.99));
+      document.getElementById("mypage_circle2").setAttribute("d", loginDrawCircle(26, 35, 24, 0, degrees));
+      document.getElementById("mypage2_circle1").setAttribute("d", loginDrawCircle(26, 35, 24, 0, 359.99));
+      document.getElementById("mypage2_circle2").setAttribute("d", loginDrawCircle(26, 35, 24, 0, degrees));
+    }
+  }
+  ga('send', 'event', 'user', 'login');
+}
+function checkIfMypage2IsInView() {
+  var a = document.getElementById("mypagediv2");
+  if (isinviewport(a) || isaboveviewport(a)) {
+    finishedPage();
+    window.removeEventListener("scroll", checkIfMypage2IsInView);
+  }
+}
+function isinviewport(x) {
+  var rect = x.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /* or $(window).height() */
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth) /* or $(window).width() */
+  );
+}
+function isaboveviewport(x) {
+  var rect = x.getBoundingClientRect();
+  if (rect.top < 0) return true;
+  return false;
+}
+function registerPoint(cc) {
+  var x, degrees = 0, txt = "", txt2 = "", completed = 0, color1 = "rgba(76, 175, 80, 0.1)", color2 = "rgba(76, 175, 80, 1)";
+  var a = document.getElementById("w3loginbtn");
+  var b = document.getElementById("mypagediv");
+  var c = document.getElementById("mypagediv2");
+  if (c) {
+    mp_pagesread++;
+    x = Math.round((mp_pagesread/mp_totalpages) * 100);
+    degrees = x * 3.6;
+    if (degrees > 359) degrees = 359.99;
+    txt += "<span class='usergetspoint' id='usergetstutpoint'>+1</span>";
+    if (degrees == 359.99) {completed = 1;}
+    if (completed == 1) {
+      txt += "<span id='usergetsstar'>&#x2605;</span>";
+    }
+    c.innerHTML += txt;
+    document.getElementById("mypage_circle1").setAttribute("d", loginDrawCircle(26, 35, 24, 0, 359.99));
+    document.getElementById("mypage_circle2").setAttribute("d", loginDrawCircle(26, 35, 24, 0, degrees));
+    document.getElementById("mypage2_circle1").setAttribute("d", loginDrawCircle(26, 35, 24, 0, 359.99));
+    document.getElementById("mypage2_circle2").setAttribute("d", loginDrawCircle(26, 35, 24, 0, degrees));
+  }
+}
+
+
+</script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>  
+<![endif]-->
+</body>
+</html>
